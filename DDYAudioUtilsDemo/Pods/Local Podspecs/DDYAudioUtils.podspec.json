@@ -1,0 +1,44 @@
+{
+  "name": "DDYAudioUtils",
+  "version": "2.1.2",
+  "summary": "天橙语音工具[录制、转码MP3]",
+  "homepage": "https://staging.intviu.cn",
+  "license": "MIT",
+  "authors": {
+    "DDYAudioUtils": "doudianyu@orangelab.cn"
+  },
+  "source": {
+    "git": "",
+    "tag": "2.1.2"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "DDYAudioUtils/core/*{h,m}",
+      "ios": {
+        "frameworks": [
+          "UIKit",
+          "AVFoundation"
+        ]
+      }
+    },
+    {
+      "name": "Mp3",
+      "vendored_frameworks": "DDYAudioUtils/mp3/lame.framework",
+      "source_files": "DDYAudioUtils/mp3/*{h,m}"
+    },
+    {
+      "name": "Amr",
+      "vendored_libraries": "DDYAudioUtils/amr/lib/*.a",
+      "source_files": [
+        "DDYAudioUtils/amr/*{h,m,mm}",
+        "DDYAudioUtils/amr/include/*/*.h",
+        "DDYAudioUtils/amr/amrwapper/*{h,mm}"
+      ]
+    }
+  ]
+}

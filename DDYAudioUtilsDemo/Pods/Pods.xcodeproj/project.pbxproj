@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D38720EAF04B3720967DBADC0AD42C /* DDYAudioUtilsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 80496297916C7CE2F647C9CF3F08188C /* DDYAudioUtilsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BED2CC854A1AAFC5EC6AA5736C98534 /* DDYMp3RecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863B6C585CB3D7BA59F2651A8F7E73D /* DDYMp3RecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F8741B0366684690EC182AFFDBC3A66 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1D3DF511122966C5954F751FDB5CF3 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164EDB7582A2449FFD4C48A9B710349D /* DDYConvertToAmr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5BF1141FBADBEEE82244F7B031935 /* DDYConvertToAmr.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		166D1B992C5DC427A1056624C08CE3CC /* DDYAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC04FE92652CE68E41D94496883B2C /* DDYAudioRecorder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1F6A71C3948E3FF483E479C0C9FD2E0F /* DDYAudioMeterObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1F14EEE4EFD23FF70D35A2867D3B6 /* DDYAudioMeterObserver.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A13D61867630D33BB864BCA286A7B07 /* DDYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C807E4BE6F03C8F3AC0AEC53D3850288 /* DDYAudioUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F39DFDE10E8EAF77C8CEA6139830A33 /* DDYAudioMeterObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D114719AEA2BC93ED5D41BE1035469 /* DDYAudioMeterObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C6F7B4FD057DEB6EF965063CDAD7FB5 /* DDYAmrPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C2004C04E0316BD2666595D97E3CDBD5 /* DDYAmrPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF0D87A058E7F4C30998D4D2E35377D /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BCF29A8E2865728769690BBD3DB757 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F236BB91AD2E8A04AE151DD5DBF07E /* DDYAudioUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B55A8F1C6D2D05032523DD9BF6E0C1BE /* DDYAudioUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565EC86FF2DA9EBB933BB0B78DBF4B83 /* DDYAmrRecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7547F1EC3FA08217D52C3F36DB14849 /* DDYAmrRecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5881612DFBF0877964283FE3D1112A61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */; };
+		5CF00E5DB6D8CE4F3B4DEC8E9CA80F0C /* DDYAmrRecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2B65D48B705FAEDA59427677AC163D /* DDYAmrRecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A8841A7960E88934A6C0C734682486 /* DDYAmrPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD422998D3E3F0BDD1DCA906CB964E /* DDYAmrPlayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		712B023DADC219EC2F6B3AC30D586F77 /* DDYConvertToMp3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA75D29F9982D5473AD4676F26E339 /* DDYConvertToMp3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		75EE58976AD02A091D9647781F43EE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		779ABD9FB758339F547FDFDA8E4F8825 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E15D1F2AD35924646EC223CD732CF0 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788E3F5B3F7125614D02EAE3DA8C6009 /* DDYAudioUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A854C222846716FA9DC374C0D23350DE /* DDYAudioUtils-dummy.m */; };
+		82038F4F94D50C5450888146E0B22D5D /* DDYConvertToAmr.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C8F95FA9D65DB478E854FFD362B6E1 /* DDYConvertToAmr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843A193FDE163E265A55A73406548BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		91A0A8BDA72F210F03DDDFDC442E9C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
+		A09B4F4B9706E513D734AA9660E21F51 /* DDYCafRecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F55BF77106ABA6C96AA1333A16AD90 /* DDYCafRecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AB0027EE029D8AF8361D09D9B6526B97 /* Pods-DDYAudioUtilsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1BC499DA278E8C7FD4F35CBAE7D6C /* Pods-DDYAudioUtilsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B106F13C154F3FB0C843AFD840DB260E /* Pods-DDYAudioUtilsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82B073EE56F3D4C18E89A852FA73FFE /* Pods-DDYAudioUtilsDemo-dummy.m */; };
+		B6E7277381B71F3E1DF669C232CB5585 /* DDYCafRecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BEE97525D27AFC4A2E9EA27A293E9EB /* DDYCafRecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB2BD9349F67FB17FD1C51347E6DDBE /* DDYAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DECC4AA4AE6C336418E37C1247DB02 /* DDYAudioUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C38AFB478944D81A15FDD8F8BCE3EEA3 /* DDYConvertToMp3.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F4561A032B5EC0BCD15E42A3461351 /* DDYConvertToMp3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C910010F4FD84E1FD3BE17A144B43845 /* DDYMp3RecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD68DA4C37F26383ACD920FEE42E620 /* DDYMp3RecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB3A844095EA678657E61706A8AE5202 /* DDYAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EB5ED3DCE3C024BC7ACA1A2074FAFE /* DDYAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3F328829E79C4F1B714951BFA67C73 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9BFD04E9B9A51BB9F96C79BA0FB495 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBA4E8E6A3D99CA24013C45712435EB /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F8741479471C8752CA95201BE3F0024F /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F751597F038BA39D148308D796EBE913 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 40A078D4B57B9F7A91E85D842609C48E /* amrFileCodec.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BEC4A1053444A8E5A3FF18F4099EB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B301805B4C4A744B0A6130EC54A226;
+			remoteInfo = DDYAudioUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F15674A7DC1F1E4526048E54CFECCE /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "DDYAudioUtils/amr/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		07D899F06CF88385EDA874D081F60D55 /* Pods-DDYAudioUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDYAudioUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		085F9C2031EF656CF11DE2D70E4A3702 /* Pods-DDYAudioUtilsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDYAudioUtilsDemo.modulemap"; sourceTree = "<group>"; };
+		094236ABB9E7C55120F8B8598356BEAA /* Pods-DDYAudioUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDYAudioUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0AEC62115AC9121ECBBA94563990430E /* DDYAudioUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYAudioUtils.release.xcconfig; sourceTree = "<group>"; };
+		12BCF29A8E2865728769690BBD3DB757 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		16621FA6886D3B9A9043B223857DD08E /* DDYAudioUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDYAudioUtils-Info.plist"; sourceTree = "<group>"; };
+		1863B6C585CB3D7BA59F2651A8F7E73D /* DDYMp3RecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYMp3RecordWriter.h; path = DDYAudioUtils/mp3/DDYMp3RecordWriter.h; sourceTree = "<group>"; };
+		19F4561A032B5EC0BCD15E42A3461351 /* DDYConvertToMp3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYConvertToMp3.h; path = DDYAudioUtils/mp3/DDYConvertToMp3.h; sourceTree = "<group>"; };
+		1BEE97525D27AFC4A2E9EA27A293E9EB /* DDYCafRecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYCafRecordWriter.h; path = DDYAudioUtils/core/DDYCafRecordWriter.h; sourceTree = "<group>"; };
+		1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		25D1BC499DA278E8C7FD4F35CBAE7D6C /* Pods-DDYAudioUtilsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDYAudioUtilsDemo-umbrella.h"; sourceTree = "<group>"; };
+		25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		285C29B627AB2FC77B1BFAD8E8FCB087 /* Pods-DDYAudioUtilsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDYAudioUtilsDemo-Info.plist"; sourceTree = "<group>"; };
+		35DECC4AA4AE6C336418E37C1247DB02 /* DDYAudioUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioUtils.h; path = DDYAudioUtils/core/DDYAudioUtils.h; sourceTree = "<group>"; };
+		3ACC04FE92652CE68E41D94496883B2C /* DDYAudioRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioRecorder.m; path = DDYAudioUtils/core/DDYAudioRecorder.m; sourceTree = "<group>"; };
+		3C9E4D0B374B0AA42A6AA41698B76F93 /* Pods-DDYAudioUtilsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDYAudioUtilsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		40A078D4B57B9F7A91E85D842609C48E /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		40AC43E868971DE4DB1B3E87DCA044D5 /* DDYAudioUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYAudioUtils.debug.xcconfig; sourceTree = "<group>"; };
+		43EB5ED3DCE3C024BC7ACA1A2074FAFE /* DDYAudioRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioRecorder.h; path = DDYAudioUtils/core/DDYAudioRecorder.h; sourceTree = "<group>"; };
+		54DA688DBD7CA0BC3F29FDBC596D213D /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lame.framework; path = DDYAudioUtils/mp3/lame.framework; sourceTree = "<group>"; };
+		63C8F95FA9D65DB478E854FFD362B6E1 /* DDYConvertToAmr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYConvertToAmr.h; path = DDYAudioUtils/amr/DDYConvertToAmr.h; sourceTree = "<group>"; };
+		6EBA75D29F9982D5473AD4676F26E339 /* DDYConvertToMp3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYConvertToMp3.m; path = DDYAudioUtils/mp3/DDYConvertToMp3.m; sourceTree = "<group>"; };
+		76E15D1F2AD35924646EC223CD732CF0 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		7FE5BF1141FBADBEEE82244F7B031935 /* DDYConvertToAmr.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = DDYConvertToAmr.mm; path = DDYAudioUtils/amr/DDYConvertToAmr.mm; sourceTree = "<group>"; };
+		80496297916C7CE2F647C9CF3F08188C /* DDYAudioUtilsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioUtilsHeader.h; path = DDYAudioUtils/core/DDYAudioUtilsHeader.h; sourceTree = "<group>"; };
+		9B1D3DF511122966C5954F751FDB5CF3 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		9C2B65D48B705FAEDA59427677AC163D /* DDYAmrRecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAmrRecordWriter.h; path = DDYAudioUtils/amr/DDYAmrRecordWriter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F9BFD04E9B9A51BB9F96C79BA0FB495 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		A854C222846716FA9DC374C0D23350DE /* DDYAudioUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDYAudioUtils-dummy.m"; sourceTree = "<group>"; };
+		AC12EB46C22972274709A70E30436227 /* Pods-DDYAudioUtilsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDYAudioUtilsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACB1F14EEE4EFD23FF70D35A2867D3B6 /* DDYAudioMeterObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioMeterObserver.m; path = DDYAudioUtils/core/DDYAudioMeterObserver.m; sourceTree = "<group>"; };
+		B55A8F1C6D2D05032523DD9BF6E0C1BE /* DDYAudioUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYAudioUtils-umbrella.h"; sourceTree = "<group>"; };
+		B88F6593D3D099F119CC043ED529E74D /* DDYAudioUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDYAudioUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2004C04E0316BD2666595D97E3CDBD5 /* DDYAmrPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAmrPlayer.h; path = DDYAudioUtils/amr/DDYAmrPlayer.h; sourceTree = "<group>"; };
+		C3FD422998D3E3F0BDD1DCA906CB964E /* DDYAmrPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAmrPlayer.m; path = DDYAudioUtils/amr/DDYAmrPlayer.m; sourceTree = "<group>"; };
+		C6D114719AEA2BC93ED5D41BE1035469 /* DDYAudioMeterObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioMeterObserver.h; path = DDYAudioUtils/core/DDYAudioMeterObserver.h; sourceTree = "<group>"; };
+		C807E4BE6F03C8F3AC0AEC53D3850288 /* DDYAudioUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioUtils.m; path = DDYAudioUtils/core/DDYAudioUtils.m; sourceTree = "<group>"; };
+		CBDEA198CCB0FAAA748F132C748AC56D /* Pods-DDYAudioUtilsDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DDYAudioUtilsDemo"; path = Pods_DDYAudioUtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F55BF77106ABA6C96AA1333A16AD90 /* DDYCafRecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYCafRecordWriter.m; path = DDYAudioUtils/core/DDYCafRecordWriter.m; sourceTree = "<group>"; };
+		D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDYAudioUtils; path = DDYAudioUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82B073EE56F3D4C18E89A852FA73FFE /* Pods-DDYAudioUtilsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDYAudioUtilsDemo-dummy.m"; sourceTree = "<group>"; };
+		DC057C072FFE176814101E3E03FF8518 /* Pods-DDYAudioUtilsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDYAudioUtilsDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DC2437E1F59FB87B0FC98139DD3B191F /* DDYAudioUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDYAudioUtils.modulemap; sourceTree = "<group>"; };
+		E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E7547F1EC3FA08217D52C3F36DB14849 /* DDYAmrRecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAmrRecordWriter.m; path = DDYAudioUtils/amr/DDYAmrRecordWriter.m; sourceTree = "<group>"; };
+		F8741479471C8752CA95201BE3F0024F /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		F9F96F57DCB86B2E80FA831F90F83503 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "DDYAudioUtils/amr/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		FADFDB42A9EB17FF1ADC0E726989D696 /* DDYAudioUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYAudioUtils-prefix.pch"; sourceTree = "<group>"; };
+		FFD68DA4C37F26383ACD920FEE42E620 /* DDYMp3RecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYMp3RecordWriter.m; path = DDYAudioUtils/mp3/DDYMp3RecordWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB77A7AA12C4A51F0247CE81CEBB9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EE58976AD02A091D9647781F43EE65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5ADBB0C27C280AEB8F2805F50833226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5881612DFBF0877964283FE3D1112A61 /* AVFoundation.framework in Frameworks */,
+				843A193FDE163E265A55A73406548BD3 /* Foundation.framework in Frameworks */,
+				91A0A8BDA72F210F03DDDFDC442E9C5B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439889605EFAD97B3872FAF274DF229F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		090189875741F8FEB8C5B4F1B963FACB /* Mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				19F4561A032B5EC0BCD15E42A3461351 /* DDYConvertToMp3.h */,
+				6EBA75D29F9982D5473AD4676F26E339 /* DDYConvertToMp3.m */,
+				1863B6C585CB3D7BA59F2651A8F7E73D /* DDYMp3RecordWriter.h */,
+				FFD68DA4C37F26383ACD920FEE42E620 /* DDYMp3RecordWriter.m */,
+				D18198D5CC7E3F5B7B3B96D99738201F /* Frameworks */,
+			);
+			name = Mp3;
+			sourceTree = "<group>";
+		};
+		0CE1A2417ADD259AAF1CC5CDB78D0A12 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C6D114719AEA2BC93ED5D41BE1035469 /* DDYAudioMeterObserver.h */,
+				ACB1F14EEE4EFD23FF70D35A2867D3B6 /* DDYAudioMeterObserver.m */,
+				43EB5ED3DCE3C024BC7ACA1A2074FAFE /* DDYAudioRecorder.h */,
+				3ACC04FE92652CE68E41D94496883B2C /* DDYAudioRecorder.m */,
+				35DECC4AA4AE6C336418E37C1247DB02 /* DDYAudioUtils.h */,
+				C807E4BE6F03C8F3AC0AEC53D3850288 /* DDYAudioUtils.m */,
+				80496297916C7CE2F647C9CF3F08188C /* DDYAudioUtilsHeader.h */,
+				1BEE97525D27AFC4A2E9EA27A293E9EB /* DDYCafRecordWriter.h */,
+				D0F55BF77106ABA6C96AA1333A16AD90 /* DDYCafRecordWriter.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		22A78F980F7913AE0975703E87D32735 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2437E1F59FB87B0FC98139DD3B191F /* DDYAudioUtils.modulemap */,
+				A854C222846716FA9DC374C0D23350DE /* DDYAudioUtils-dummy.m */,
+				16621FA6886D3B9A9043B223857DD08E /* DDYAudioUtils-Info.plist */,
+				FADFDB42A9EB17FF1ADC0E726989D696 /* DDYAudioUtils-prefix.pch */,
+				B55A8F1C6D2D05032523DD9BF6E0C1BE /* DDYAudioUtils-umbrella.h */,
+				40AC43E868971DE4DB1B3E87DCA044D5 /* DDYAudioUtils.debug.xcconfig */,
+				0AEC62115AC9121ECBBA94563990430E /* DDYAudioUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../DDYAudioUtilsDemo/Pods/Target Support Files/DDYAudioUtils";
+			sourceTree = "<group>";
+		};
+		347854C7ACC68A9F35389D66867B5A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F15674A7DC1F1E4526048E54CFECCE /* libopencore-amrnb.a */,
+				F9F96F57DCB86B2E80FA831F90F83503 /* libopencore-amrwb.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439889605EFAD97B3872FAF274DF229F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */,
+				25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */,
+				E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62E30B319D3911462C964844B02E095F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CCBBFF8BF3687637BE060286EC44A48D /* opencore-amrnb */,
+				BB9B8C07B06FEBD6DCD57C2EF15F8607 /* opencore-amrwb */,
+			);
+			name = include;
+			path = DDYAudioUtils/amr/include;
+			sourceTree = "<group>";
+		};
+		7ABA7CDC8DA661F3D505608D885115F0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B88F6593D3D099F119CC043ED529E74D /* DDYAudioUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		80D3821BFFCA7C675687AC9D53504ABC /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				9B1D3DF511122966C5954F751FDB5CF3 /* amrFileCodec.h */,
+				40A078D4B57B9F7A91E85D842609C48E /* amrFileCodec.mm */,
+			);
+			name = amrwapper;
+			path = DDYAudioUtils/amr/amrwapper;
+			sourceTree = "<group>";
+		};
+		BB9B8C07B06FEBD6DCD57C2EF15F8607 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				76E15D1F2AD35924646EC223CD732CF0 /* dec_if.h */,
+				9F9BFD04E9B9A51BB9F96C79BA0FB495 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		CCBBFF8BF3687637BE060286EC44A48D /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				F8741479471C8752CA95201BE3F0024F /* interf_dec.h */,
+				12BCF29A8E2865728769690BBD3DB757 /* interf_enc.h */,
+			);
+			name = "opencore-amrnb";
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		CDECED9D0C6E14DCFC57D44CE2F3598E /* Pods-DDYAudioUtilsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				085F9C2031EF656CF11DE2D70E4A3702 /* Pods-DDYAudioUtilsDemo.modulemap */,
+				AC12EB46C22972274709A70E30436227 /* Pods-DDYAudioUtilsDemo-acknowledgements.markdown */,
+				3C9E4D0B374B0AA42A6AA41698B76F93 /* Pods-DDYAudioUtilsDemo-acknowledgements.plist */,
+				D82B073EE56F3D4C18E89A852FA73FFE /* Pods-DDYAudioUtilsDemo-dummy.m */,
+				DC057C072FFE176814101E3E03FF8518 /* Pods-DDYAudioUtilsDemo-frameworks.sh */,
+				285C29B627AB2FC77B1BFAD8E8FCB087 /* Pods-DDYAudioUtilsDemo-Info.plist */,
+				25D1BC499DA278E8C7FD4F35CBAE7D6C /* Pods-DDYAudioUtilsDemo-umbrella.h */,
+				07D899F06CF88385EDA874D081F60D55 /* Pods-DDYAudioUtilsDemo.debug.xcconfig */,
+				094236ABB9E7C55120F8B8598356BEAA /* Pods-DDYAudioUtilsDemo.release.xcconfig */,
+			);
+			name = "Pods-DDYAudioUtilsDemo";
+			path = "Target Support Files/Pods-DDYAudioUtilsDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E3B27ECB892F5CB7AE1A92AEAA7F34BD /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E4EB3618DF3FFC81683605472942F84A /* Products */,
+				E0AEA83AA55913F42D50ED609BE65559 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D18198D5CC7E3F5B7B3B96D99738201F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54DA688DBD7CA0BC3F29FDBC596D213D /* lame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0AEA83AA55913F42D50ED609BE65559 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDECED9D0C6E14DCFC57D44CE2F3598E /* Pods-DDYAudioUtilsDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E31F9E7AFB032635D7B1B00BE89DFAF4 /* Amr */ = {
+			isa = PBXGroup;
+			children = (
+				C2004C04E0316BD2666595D97E3CDBD5 /* DDYAmrPlayer.h */,
+				C3FD422998D3E3F0BDD1DCA906CB964E /* DDYAmrPlayer.m */,
+				9C2B65D48B705FAEDA59427677AC163D /* DDYAmrRecordWriter.h */,
+				E7547F1EC3FA08217D52C3F36DB14849 /* DDYAmrRecordWriter.m */,
+				63C8F95FA9D65DB478E854FFD362B6E1 /* DDYConvertToAmr.h */,
+				7FE5BF1141FBADBEEE82244F7B031935 /* DDYConvertToAmr.mm */,
+				80D3821BFFCA7C675687AC9D53504ABC /* amrwapper */,
+				347854C7ACC68A9F35389D66867B5A2C /* Frameworks */,
+				62E30B319D3911462C964844B02E095F /* include */,
+			);
+			name = Amr;
+			sourceTree = "<group>";
+		};
+		E3B27ECB892F5CB7AE1A92AEAA7F34BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA495A23CD081512732201621C65309F /* DDYAudioUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E4EB3618DF3FFC81683605472942F84A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */,
+				CBDEA198CCB0FAAA748F132C748AC56D /* Pods-DDYAudioUtilsDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA495A23CD081512732201621C65309F /* DDYAudioUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E31F9E7AFB032635D7B1B00BE89DFAF4 /* Amr */,
+				0CE1A2417ADD259AAF1CC5CDB78D0A12 /* Core */,
+				090189875741F8FEB8C5B4F1B963FACB /* Mp3 */,
+				7ABA7CDC8DA661F3D505608D885115F0 /* Pod */,
+				22A78F980F7913AE0975703E87D32735 /* Support Files */,
+			);
+			name = DDYAudioUtils;
+			path = ../../DDYAudioUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05889D04BDF51712F9154201E8B2E238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0027EE029D8AF8361D09D9B6526B97 /* Pods-DDYAudioUtilsDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F0F2C1C3237FA3F385C85D1F23C9BD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8741B0366684690EC182AFFDBC3A66 /* amrFileCodec.h in Headers */,
+				4C6F7B4FD057DEB6EF965063CDAD7FB5 /* DDYAmrPlayer.h in Headers */,
+				5CF00E5DB6D8CE4F3B4DEC8E9CA80F0C /* DDYAmrRecordWriter.h in Headers */,
+				2F39DFDE10E8EAF77C8CEA6139830A33 /* DDYAudioMeterObserver.h in Headers */,
+				DB3A844095EA678657E61706A8AE5202 /* DDYAudioRecorder.h in Headers */,
+				BEB2BD9349F67FB17FD1C51347E6DDBE /* DDYAudioUtils.h in Headers */,
+				51F236BB91AD2E8A04AE151DD5DBF07E /* DDYAudioUtils-umbrella.h in Headers */,
+				09D38720EAF04B3720967DBADC0AD42C /* DDYAudioUtilsHeader.h in Headers */,
+				B6E7277381B71F3E1DF669C232CB5585 /* DDYCafRecordWriter.h in Headers */,
+				82038F4F94D50C5450888146E0B22D5D /* DDYConvertToAmr.h in Headers */,
+				C38AFB478944D81A15FDD8F8BCE3EEA3 /* DDYConvertToMp3.h in Headers */,
+				0BED2CC854A1AAFC5EC6AA5736C98534 /* DDYMp3RecordWriter.h in Headers */,
+				779ABD9FB758339F547FDFDA8E4F8825 /* dec_if.h in Headers */,
+				DE3F328829E79C4F1B714951BFA67C73 /* if_rom.h in Headers */,
+				EFBA4E8E6A3D99CA24013C45712435EB /* interf_dec.h in Headers */,
+				4DF0D87A058E7F4C30998D4D2E35377D /* interf_enc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04066D837DE023900D245C00D85DF14A /* Pods-DDYAudioUtilsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBF2820A6A9EB262CD9C88CCDC4CE3F4 /* Build configuration list for PBXNativeTarget "Pods-DDYAudioUtilsDemo" */;
+			buildPhases = (
+				05889D04BDF51712F9154201E8B2E238 /* Headers */,
+				4F4923ABF2906371277491510745CD45 /* Sources */,
+				2DB77A7AA12C4A51F0247CE81CEBB9C0 /* Frameworks */,
+				E0469D235861983E7778AF9A2A464A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED86BD5A81438436373335AF8F34554 /* PBXTargetDependency */,
+			);
+			name = "Pods-DDYAudioUtilsDemo";
+			productName = Pods_DDYAudioUtilsDemo;
+			productReference = CBDEA198CCB0FAAA748F132C748AC56D /* Pods-DDYAudioUtilsDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		52B301805B4C4A744B0A6130EC54A226 /* DDYAudioUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE555906E6A632DF9E14B913A02A3FB /* Build configuration list for PBXNativeTarget "DDYAudioUtils" */;
+			buildPhases = (
+				0F0F2C1C3237FA3F385C85D1F23C9BD4 /* Headers */,
+				0E64344EF851D7EEBBC23366A2B96466 /* Sources */,
+				C5ADBB0C27C280AEB8F2805F50833226 /* Frameworks */,
+				D94E0DAD8FEC5FE674CAE36D44DFE91F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDYAudioUtils;
+			productName = DDYAudioUtils;
+			productReference = D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E4EB3618DF3FFC81683605472942F84A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52B301805B4C4A744B0A6130EC54A226 /* DDYAudioUtils */,
+				04066D837DE023900D245C00D85DF14A /* Pods-DDYAudioUtilsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D94E0DAD8FEC5FE674CAE36D44DFE91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0469D235861983E7778AF9A2A464A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E64344EF851D7EEBBC23366A2B96466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F751597F038BA39D148308D796EBE913 /* amrFileCodec.mm in Sources */,
+				70A8841A7960E88934A6C0C734682486 /* DDYAmrPlayer.m in Sources */,
+				565EC86FF2DA9EBB933BB0B78DBF4B83 /* DDYAmrRecordWriter.m in Sources */,
+				1F6A71C3948E3FF483E479C0C9FD2E0F /* DDYAudioMeterObserver.m in Sources */,
+				166D1B992C5DC427A1056624C08CE3CC /* DDYAudioRecorder.m in Sources */,
+				2A13D61867630D33BB864BCA286A7B07 /* DDYAudioUtils.m in Sources */,
+				788E3F5B3F7125614D02EAE3DA8C6009 /* DDYAudioUtils-dummy.m in Sources */,
+				A09B4F4B9706E513D734AA9660E21F51 /* DDYCafRecordWriter.m in Sources */,
+				164EDB7582A2449FFD4C48A9B710349D /* DDYConvertToAmr.mm in Sources */,
+				712B023DADC219EC2F6B3AC30D586F77 /* DDYConvertToMp3.m in Sources */,
+				C910010F4FD84E1FD3BE17A144B43845 /* DDYMp3RecordWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4923ABF2906371277491510745CD45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B106F13C154F3FB0C843AFD840DB260E /* Pods-DDYAudioUtilsDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED86BD5A81438436373335AF8F34554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDYAudioUtils;
+			target = 52B301805B4C4A744B0A6130EC54A226 /* DDYAudioUtils */;
+			targetProxy = 0BEC4A1053444A8E5A3FF18F4099EB17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		096D5151DA6F9C5EAA326E29A94CA6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AC43E868971DE4DB1B3E87DCA044D5 /* DDYAudioUtils.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DDYAudioUtils/DDYAudioUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils.modulemap";
+				PRODUCT_MODULE_NAME = DDYAudioUtils;
+				PRODUCT_NAME = DDYAudioUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		783693811421936F14E92C5B99A326F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D899F06CF88385EDA874D081F60D55 /* Pods-DDYAudioUtilsDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CECBA32884AD09CA693F50451DA479ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094236ABB9E7C55120F8B8598356BEAA /* Pods-DDYAudioUtilsDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D41F9EAAEA2A1F120E6974D67875EB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEC62115AC9121ECBBA94563990430E /* DDYAudioUtils.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DDYAudioUtils/DDYAudioUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils.modulemap";
+				PRODUCT_MODULE_NAME = DDYAudioUtils;
+				PRODUCT_NAME = DDYAudioUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBF2820A6A9EB262CD9C88CCDC4CE3F4 /* Build configuration list for PBXNativeTarget "Pods-DDYAudioUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783693811421936F14E92C5B99A326F0 /* Debug */,
+				CECBA32884AD09CA693F50451DA479ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE555906E6A632DF9E14B913A02A3FB /* Build configuration list for PBXNativeTarget "DDYAudioUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096D5151DA6F9C5EAA326E29A94CA6FA /* Debug */,
+				D41F9EAAEA2A1F120E6974D67875EB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

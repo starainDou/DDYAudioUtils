@@ -1,0 +1,20 @@
+PODS:
+  - DDYAudioUtils/Amr (2.1.2)
+  - DDYAudioUtils/Core (2.1.2)
+  - DDYAudioUtils/Mp3 (2.1.2)
+
+DEPENDENCIES:
+  - DDYAudioUtils/Amr (from `../DDYAudioUtils/`)
+  - DDYAudioUtils/Core (from `../DDYAudioUtils/`)
+  - DDYAudioUtils/Mp3 (from `../DDYAudioUtils/`)
+
+EXTERNAL SOURCES:
+  DDYAudioUtils:
+    :path: "../DDYAudioUtils/"
+
+SPEC CHECKSUMS:
+  DDYAudioUtils: 7c8a1ae9ee0a36faabb7bcb98a2d9fa5be9a2f9c
+
+PODFILE CHECKSUM: 6efe66e70c82febb1343a9ad1fa3b07dba788f3a
+
+COCOAPODS: 1.11.2

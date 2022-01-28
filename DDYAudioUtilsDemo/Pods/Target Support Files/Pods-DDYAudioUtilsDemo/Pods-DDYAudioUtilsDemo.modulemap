@@ -1,0 +1,6 @@
+framework module Pods_DDYAudioUtilsDemo {
+  umbrella header "Pods-DDYAudioUtilsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

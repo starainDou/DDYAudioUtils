@@ -1,0 +1,6 @@
+framework module DDYAudioUtils {
+  umbrella header "DDYAudioUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
