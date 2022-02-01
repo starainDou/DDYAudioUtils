@@ -26,6 +26,8 @@
 #import "DDYConvertToMp3.h"
 #import "DDYMp3RecordWriter.h"
 #import "DDYAudioChange.h"
+#import "DDYSoxTest.h"
+#import "sox.h"
 
 FOUNDATION_EXPORT double DDYAudioUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDYAudioUtilsVersionString[];

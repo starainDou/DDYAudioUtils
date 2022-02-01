@@ -4,6 +4,7 @@ PODS:
   - DDYAudioUtils/Mp3 (1.0.6)
   - DDYAudioUtils/SoundTouch (1.0.6):
     - DDYSoundTouch
+  - DDYAudioUtils/Sox (1.0.6)
   - DDYSoundTouch (1.0.2)
 
 DEPENDENCIES:
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - DDYAudioUtils/Core (from `../DDYAudioUtils/`)
   - DDYAudioUtils/Mp3 (from `../DDYAudioUtils/`)
   - DDYAudioUtils/SoundTouch (from `../DDYAudioUtils/`)
+  - DDYAudioUtils/Sox (from `../DDYAudioUtils/`)
   - DDYSoundTouch (from `../DDYAudioUtils/`)
 
 EXTERNAL SOURCES:
@@ -20,9 +22,9 @@ EXTERNAL SOURCES:
     :path: "../DDYAudioUtils/"
 
 SPEC CHECKSUMS:
-  DDYAudioUtils: a122ae76a880ba1e524df97863de31398a92186b
+  DDYAudioUtils: e2de1b8a092e08e3bd548a1bd9450e8c6ed89776
   DDYSoundTouch: a9c638bcf91f6ba8de740cb8b4537b864e9dc8eb
 
-PODFILE CHECKSUM: 0ad328bb9674dea864f2280bcd72c8da59afc784
+PODFILE CHECKSUM: 2f2a723a83b809f3e88419105fd114b6cdc4324e
 
 COCOAPODS: 1.11.2

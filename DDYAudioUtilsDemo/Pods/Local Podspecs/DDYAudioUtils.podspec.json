@@ -59,6 +59,21 @@
         "CLANG_CXX_LANGUAGE_STANDARD": "c++11",
         "CLANG_CXX_LIBRARY": "libc++"
       }
+    },
+    {
+      "name": "FMOD_iPhone",
+      "vendored_libraries": "DDYAudioUtils/FMOD/iPhone/*.a",
+      "source_files": "DDYAudioUtils/FMOD/include/*{h,m,mm}"
+    },
+    {
+      "name": "FMOD_simulator",
+      "vendored_libraries": "DDYAudioUtils/FMOD/simulator/*.a",
+      "source_files": "DDYAudioUtils/FMOD/include/*{h,m,mm}"
+    },
+    {
+      "name": "Sox",
+      "vendored_libraries": "DDYAudioUtils/sox/*.a",
+      "source_files": "DDYAudioUtils/sox/*{h,m,mm}"
     }
   ]
 }

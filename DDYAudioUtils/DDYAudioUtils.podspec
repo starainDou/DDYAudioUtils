@@ -69,4 +69,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'DDYAudioUtils/FMOD/include/*{h,m,mm}'
   end
 
+  s.subspec 'Sox' do |ss|
+    ss.vendored_libraries = 'DDYAudioUtils/sox/*.a'
+    ss.source_files = 'DDYAudioUtils/sox/*{h,m,mm}'
+  end
+
 end

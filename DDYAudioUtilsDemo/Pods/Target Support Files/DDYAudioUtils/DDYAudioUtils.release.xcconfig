@@ -5,8 +5,8 @@ CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils
 ENABLE_BITCODE = NO
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DDYSoundTouch" "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/mp3"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/amr/lib"
-OTHER_LDFLAGS = $(inherited) -l"c++" -l"opencore-amrnb" -l"opencore-amrwb" -framework "AVFoundation" -framework "DDYSoundTouch" -framework "UIKit" -framework "lame"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/amr/lib" "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/sox"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"opencore-amrnb" -l"opencore-amrwb" -l"sox" -framework "AVFoundation" -framework "DDYSoundTouch" -framework "UIKit" -framework "lame"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

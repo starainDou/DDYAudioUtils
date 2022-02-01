@@ -62,6 +62,7 @@ extension ViewController {
     static let mp3Path: String = ViewController.voicePath + "record.mp3"
     static let amrPath: String = ViewController.voicePath + "record.amr"
     static let wavPath: String = ViewController.voicePath + "record.wav"
+    static let tempPath: String = ViewController.voicePath + "temp.wav"
     static let magicPath: String = ViewController.voicePath + "magic.wav"
     
     /// 尝试创建
