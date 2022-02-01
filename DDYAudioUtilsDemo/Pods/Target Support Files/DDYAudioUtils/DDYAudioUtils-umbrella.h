@@ -25,6 +25,7 @@
 #import "DDYCafRecordWriter.h"
 #import "DDYConvertToMp3.h"
 #import "DDYMp3RecordWriter.h"
+#import "DDYAudioChange.h"
 
 FOUNDATION_EXPORT double DDYAudioUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char DDYAudioUtilsVersionString[];

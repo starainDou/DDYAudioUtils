@@ -1,6 +1,6 @@
 {
   "name": "DDYAudioUtils",
-  "version": "2.1.2",
+  "version": "1.0.6",
   "summary": "天橙语音工具[录制、转码MP3]",
   "homepage": "https://staging.intviu.cn",
   "license": "MIT",
@@ -9,12 +9,18 @@
   },
   "source": {
     "git": "",
-    "tag": "2.1.2"
+    "tag": "1.0.6"
   },
   "platforms": {
     "ios": "10.0"
   },
   "requires_arc": true,
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "user_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
   "subspecs": [
     {
       "name": "Core",
@@ -39,6 +45,20 @@
         "DDYAudioUtils/amr/include/*/*.h",
         "DDYAudioUtils/amr/amrwapper/*{h,mm}"
       ]
+    },
+    {
+      "name": "SoundTouch",
+      "libraries": "c++",
+      "source_files": "DDYAudioUtils/soundtouch/*{h,m,mm}",
+      "dependencies": {
+        "DDYSoundTouch": [
+
+        ]
+      },
+      "xcconfig": {
+        "CLANG_CXX_LANGUAGE_STANDARD": "c++11",
+        "CLANG_CXX_LIBRARY": "libc++"
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 //
-//  DDYConvertToAmr.h
+//  DDYAmrPlayer.h
 //  MeLLC
 //
 //  Created by RainDou on 2016/05/15.

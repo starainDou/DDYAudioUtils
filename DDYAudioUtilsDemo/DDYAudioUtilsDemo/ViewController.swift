@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 
 class ViewController: UIViewController {
@@ -15,6 +16,10 @@ class ViewController: UIViewController {
     private lazy var amrButton: UIButton = btn(title: "Amr", y: 150, action: #selector(amrAction(_:)))
     
     private lazy var cafButton: UIButton = btn(title: "Caf", y: 200, action: #selector(cafAction(_:)))
+    
+    private lazy var changeButton: UIButton = btn(title: "变声", y: 250, action: #selector(changeAction(_:)))
+    
+    private lazy var imgView: UIImageView = UIImageView(frame: CGRect(x: 100, y: 350, width: UIScreen.main.bounds.width - 200, height: 200))
     
     private func btn(title: String, y: CGFloat, action: Selector) -> UIButton {
         return UIButton(type: .custom).ddy_then {
@@ -34,6 +39,8 @@ class ViewController: UIViewController {
         view.addSubview(mp3Button)
         view.addSubview(amrButton)
         view.addSubview(cafButton)
+        view.addSubview(changeButton)
+        view.addSubview(imgView)
     }
     @objc private func mp3Action(_ sender: UIButton) {
         navigationController?.pushViewController(DDYMp3ViewController(), animated: true)
@@ -44,6 +51,9 @@ class ViewController: UIViewController {
     @objc private func cafAction(_ sender: UIButton) {
         navigationController?.pushViewController(DDYCafViewController(), animated: true)
     }
+    @objc private func changeAction(_ sender: UIButton) {
+        navigationController?.pushViewController(DDYAudioChangeViewController(), animated: true)
+    }
 }
 
 extension ViewController {
@@ -51,6 +61,8 @@ extension ViewController {
     static let cafPath: String = ViewController.voicePath + "record.caf"
     static let mp3Path: String = ViewController.voicePath + "record.mp3"
     static let amrPath: String = ViewController.voicePath + "record.amr"
+    static let wavPath: String = ViewController.voicePath + "record.wav"
+    static let magicPath: String = ViewController.voicePath + "magic.wav"
     
     /// 尝试创建
     static func tryCreate(path: String) {

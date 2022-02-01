@@ -1,0 +1,6 @@
+framework module DDYSoundTouch {
+  umbrella header "DDYSoundTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

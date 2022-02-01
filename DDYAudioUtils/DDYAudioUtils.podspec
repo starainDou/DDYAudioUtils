@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词,注意这里一定要和.podspec的名称一样,否则报错
   s.name         = "DDYAudioUtils"
   # 版本号/库原代码的版本
-  s.version      = "2.1.2"
+  s.version      = "1.0.6"
   # 简介
   s.summary      = "天橙语音工具[录制、转码MP3]"
   # 项目主页地址
@@ -30,6 +30,9 @@ Pod::Spec.new do |s|
   # 是否使用ARC，如果指定具体文件，则具体的问题使用ARC
   s.requires_arc = true
 
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+  s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
+
   s.subspec 'Core' do |ss|
     ss.source_files = 'DDYAudioUtils/core/*{h,m}'
     ss.ios.frameworks = 'UIKit', 'AVFoundation'
@@ -43,6 +46,27 @@ Pod::Spec.new do |s|
   s.subspec 'Amr' do |ss|
     ss.vendored_libraries = 'DDYAudioUtils/amr/lib/*.a'
     ss.source_files = 'DDYAudioUtils/amr/*{h,m,mm}', 'DDYAudioUtils/amr/include/*/*.h', 'DDYAudioUtils/amr/amrwapper/*{h,mm}'
+  end
+
+  s.subspec 'SoundTouch' do |ss|
+    ss.libraries = "c++"
+    ss.source_files = 'DDYAudioUtils/soundtouch/*{h,m,mm}'#, 'DDYAudioUtils/soundtouch/SoundTouch/*{h,cpp}'
+    #ss.vendored_frameworks = 'DDYAudioUtils/soundtouch/DDYSoundTouch.framework'
+    ss.dependency 'DDYSoundTouch'
+    ss.xcconfig = {
+   'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
+   'CLANG_CXX_LIBRARY' => 'libc++'
+  }
+  end
+
+  s.subspec 'FMOD_iPhone' do |ss|
+    ss.vendored_libraries = 'DDYAudioUtils/FMOD/iPhone/*.a'
+    ss.source_files = 'DDYAudioUtils/FMOD/include/*{h,m,mm}'
+  end
+
+  s.subspec 'FMOD_simulator' do |ss|
+    ss.vendored_libraries = 'DDYAudioUtils/FMOD/simulator/*.a'
+    ss.source_files = 'DDYAudioUtils/FMOD/include/*{h,m,mm}'
   end
 
 end

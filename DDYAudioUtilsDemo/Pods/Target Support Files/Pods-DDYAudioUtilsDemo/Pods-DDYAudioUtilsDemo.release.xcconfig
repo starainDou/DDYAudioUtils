@@ -1,11 +1,14 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils" "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/mp3"
+ENABLE_BITCODE = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils" "${PODS_CONFIGURATION_BUILD_DIR}/DDYSoundTouch" "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/mp3"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils/DDYAudioUtils.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils/DDYAudioUtils.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/DDYSoundTouch/DDYSoundTouch.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/amr/lib"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils/DDYAudioUtils.framework/Headers" -iframework "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/mp3" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils"
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "DDYAudioUtils" -framework "UIKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils/DDYAudioUtils.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/DDYSoundTouch/DDYSoundTouch.framework/Headers" -iframework "${PODS_ROOT}/../../DDYAudioUtils/DDYAudioUtils/mp3" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/DDYAudioUtils" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/DDYSoundTouch"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "AVFoundation" -framework "DDYAudioUtils" -framework "DDYSoundTouch" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

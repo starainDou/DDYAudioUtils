@@ -7,121 +7,212 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09D38720EAF04B3720967DBADC0AD42C /* DDYAudioUtilsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 80496297916C7CE2F647C9CF3F08188C /* DDYAudioUtilsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BED2CC854A1AAFC5EC6AA5736C98534 /* DDYMp3RecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863B6C585CB3D7BA59F2651A8F7E73D /* DDYMp3RecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F8741B0366684690EC182AFFDBC3A66 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1D3DF511122966C5954F751FDB5CF3 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		164EDB7582A2449FFD4C48A9B710349D /* DDYConvertToAmr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5BF1141FBADBEEE82244F7B031935 /* DDYConvertToAmr.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		166D1B992C5DC427A1056624C08CE3CC /* DDYAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC04FE92652CE68E41D94496883B2C /* DDYAudioRecorder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1F6A71C3948E3FF483E479C0C9FD2E0F /* DDYAudioMeterObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1F14EEE4EFD23FF70D35A2867D3B6 /* DDYAudioMeterObserver.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2A13D61867630D33BB864BCA286A7B07 /* DDYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C807E4BE6F03C8F3AC0AEC53D3850288 /* DDYAudioUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2F39DFDE10E8EAF77C8CEA6139830A33 /* DDYAudioMeterObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D114719AEA2BC93ED5D41BE1035469 /* DDYAudioMeterObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C6F7B4FD057DEB6EF965063CDAD7FB5 /* DDYAmrPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C2004C04E0316BD2666595D97E3CDBD5 /* DDYAmrPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DF0D87A058E7F4C30998D4D2E35377D /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BCF29A8E2865728769690BBD3DB757 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51F236BB91AD2E8A04AE151DD5DBF07E /* DDYAudioUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B55A8F1C6D2D05032523DD9BF6E0C1BE /* DDYAudioUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		565EC86FF2DA9EBB933BB0B78DBF4B83 /* DDYAmrRecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7547F1EC3FA08217D52C3F36DB14849 /* DDYAmrRecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5881612DFBF0877964283FE3D1112A61 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */; };
-		5CF00E5DB6D8CE4F3B4DEC8E9CA80F0C /* DDYAmrRecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2B65D48B705FAEDA59427677AC163D /* DDYAmrRecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70A8841A7960E88934A6C0C734682486 /* DDYAmrPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FD422998D3E3F0BDD1DCA906CB964E /* DDYAmrPlayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		712B023DADC219EC2F6B3AC30D586F77 /* DDYConvertToMp3.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA75D29F9982D5473AD4676F26E339 /* DDYConvertToMp3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		75EE58976AD02A091D9647781F43EE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
-		779ABD9FB758339F547FDFDA8E4F8825 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E15D1F2AD35924646EC223CD732CF0 /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788E3F5B3F7125614D02EAE3DA8C6009 /* DDYAudioUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A854C222846716FA9DC374C0D23350DE /* DDYAudioUtils-dummy.m */; };
-		82038F4F94D50C5450888146E0B22D5D /* DDYConvertToAmr.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C8F95FA9D65DB478E854FFD362B6E1 /* DDYConvertToAmr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		843A193FDE163E265A55A73406548BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
-		91A0A8BDA72F210F03DDDFDC442E9C5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
-		A09B4F4B9706E513D734AA9660E21F51 /* DDYCafRecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F55BF77106ABA6C96AA1333A16AD90 /* DDYCafRecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AB0027EE029D8AF8361D09D9B6526B97 /* Pods-DDYAudioUtilsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1BC499DA278E8C7FD4F35CBAE7D6C /* Pods-DDYAudioUtilsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B106F13C154F3FB0C843AFD840DB260E /* Pods-DDYAudioUtilsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82B073EE56F3D4C18E89A852FA73FFE /* Pods-DDYAudioUtilsDemo-dummy.m */; };
-		B6E7277381B71F3E1DF669C232CB5585 /* DDYCafRecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BEE97525D27AFC4A2E9EA27A293E9EB /* DDYCafRecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEB2BD9349F67FB17FD1C51347E6DDBE /* DDYAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DECC4AA4AE6C336418E37C1247DB02 /* DDYAudioUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C38AFB478944D81A15FDD8F8BCE3EEA3 /* DDYConvertToMp3.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F4561A032B5EC0BCD15E42A3461351 /* DDYConvertToMp3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C910010F4FD84E1FD3BE17A144B43845 /* DDYMp3RecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD68DA4C37F26383ACD920FEE42E620 /* DDYMp3RecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DB3A844095EA678657E61706A8AE5202 /* DDYAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EB5ED3DCE3C024BC7ACA1A2074FAFE /* DDYAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3F328829E79C4F1B714951BFA67C73 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9BFD04E9B9A51BB9F96C79BA0FB495 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFBA4E8E6A3D99CA24013C45712435EB /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = F8741479471C8752CA95201BE3F0024F /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F751597F038BA39D148308D796EBE913 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 40A078D4B57B9F7A91E85D842609C48E /* amrFileCodec.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		09EF3A06DB9F6C706DBCAA4EAE277D3C /* TDStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA106A6CC74C4263F1DF531FFC2DBC37 /* TDStretch.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E26C55730EFCA96F2C7B93BFB64EF1D /* FIRFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54821D08D82BD9CB1487BF87AAE69C97 /* FIRFilter.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0EE4CBE3A9A75F29672EA30B4046CE90 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE28AB5F7810CF180E21C97E958E5597 /* amrFileCodec.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11AEE058F71FD9F4DED10B736E783BAC /* Pods-DDYAudioUtilsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D82B073EE56F3D4C18E89A852FA73FFE /* Pods-DDYAudioUtilsDemo-dummy.m */; };
+		12EE9EA9CD882FDCEEE8E15368810B17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		1721B1D4C3B2467E2114DDE0A9276941 /* PeakFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 208C7DCA73C83E759AAE6C704971CF84 /* PeakFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE528086AB7665E48A39633C72EDDCF /* FIRFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8CBAAF8F7612FD1AA3E707B0C078A2 /* FIRFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE83CE1919D13211316E6ECE560E4FB /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F05E5E24A6EE109DCA98E509C8D7C2A /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8B571036B72AAB1D827CE07B8A412C /* RateTransposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02786D54E60B873C469B99A4A7C61672 /* RateTransposer.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21C5AD544A085F67FE78B32F247CDBD9 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 70765CAE5CADEEE8B7B559503E079AED /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2280B8E61673AC64EB0BD096DFF7DD73 /* DDYAmrPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC6F2EF117981687E72EEC2830AAE26 /* DDYAmrPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23874D9E85AD0EBA98C455A2FDAB392C /* sse_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 31F2C8073DC40508D837621CAC3929B3 /* sse_optimized.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		29DC023DEA95F8EB4CCC04CD3593301F /* cpu_detect_x86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B05DCB626FB6EC8C8E89C153D2273E16 /* cpu_detect_x86.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A7B756C2EB8A2EDD610D4A9F76F6495 /* DDYCafRecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = F754BDCAFF0A54352DB01929E799CF25 /* DDYCafRecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B05F3B0A198FB8A2572AD56FAED4CF /* DDYMp3RecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91CDA8740345C0DD6EDE823565F4A3 /* DDYMp3RecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		395DC8897145E438F72BBD124938F4AA /* RateTransposer.h in Headers */ = {isa = PBXBuildFile; fileRef = 708673FC8FA225C57A3F98A60D89FA3A /* RateTransposer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6AE771FE0A40C6351186F2FD0EF3A5 /* AAFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47A7C390042D8D54BE6AC43E7B6B3951 /* AAFilter.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		40BD25333A216786A398DC9347C0A0DB /* DDYAudioUtilsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA48F76DEDE83FBBD09F5995235322F /* DDYAudioUtilsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41074979D59193AA912F4A4B6F34D825 /* DDYAudioMeterObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F5FFBAFF29389D8EF537B4505C5929C /* DDYAudioMeterObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4738CC09D47E0986CA7B01553F4A3158 /* DDYAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E133659FE7590442802EB95717558C /* DDYAudioRecorder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		478ACC14680011FD2A8BED86AEC65461 /* DDYAmrRecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 057C94D357A6B66F69A3CE699FF3DC58 /* DDYAmrRecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48717A95788F542F3530567A96402E73 /* DDYAmrPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AB471B08F614ED7E099231F821AA13 /* DDYAmrPlayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4AED9B4E391386BE1A2F2DA594E909ED /* STTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E80AD75737B4018194DD5B654B84F6EF /* STTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E72F7FEB4DCDB2E9698FCB4E3265819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		541BDB7E99E64A3B41896A4FF3A84F53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
+		5B89DFE38C08AF55461DE63A3EA55790 /* DDYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9A5A68F8A249D818B20DDA27A761F2 /* DDYAudioUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D38F3DE649BDEDF8F4D479F41971920 /* SoundTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0325E21AA8018A374A583C8142A787BD /* SoundTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4CE907441864CBAB95EE20CEB938C6 /* SoundTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C87979EE195F3BD48B602925BBCEACBD /* SoundTouch.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		63622ECFFB79BD0FD2F3DD930EC6F28C /* DDYConvertToMp3.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D31AE164BBF70D901D3F98B35CBE30 /* DDYConvertToMp3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6615A2A5B329390FE21663943945CEDE /* DDYCafRecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BAF96FC5740AE60D102C1454F4B922 /* DDYCafRecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		68C3B59477816BA2C0836F6DDC2D7746 /* DDYConvertToMp3.h in Headers */ = {isa = PBXBuildFile; fileRef = DD45A69B2924C581E33B2072396376FE /* DDYConvertToMp3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C5F6BB2D2C23C8B890745038E78D6A /* DDYSoundTouch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F37FE16597CE1C536B03B8809E7F15F5 /* DDYSoundTouch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADB46CFFAF4A64D36B1ACC56E8D1F7D /* Pods-DDYAudioUtilsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1BC499DA278E8C7FD4F35CBAE7D6C /* Pods-DDYAudioUtilsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C383AA854D8EF53416C1FB242CD742E /* soundtouch_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 842804F45ED59BBCB8D04392A2E37E50 /* soundtouch_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71422F5EFB50ABD200A19519238AF2A1 /* DDYAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 094B96BD9CAE3C75A6044E3BFE30BCEE /* DDYAudioRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74212543E591B6174474F5C1E7DD7746 /* DDYAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D4DFE356DE0A8E387C6DA2B5C372F3 /* DDYAudioUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7533D4845DBB5817EFC12E3C57FEBED6 /* FIFOSampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B179444ABB3FB1BC0131CFAFB3A1CB6 /* FIFOSampleBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76BD49E44EE9A047155082794A919364 /* cpu_detect.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF085D84B2B30423BF5A27E9A4F376A /* cpu_detect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786F71E313B8A03AB4745A68BCC2CFD0 /* FIFOSampleBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D79FA3D84C1B4171F0D3839FD0C87782 /* FIFOSampleBuffer.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		81206C2FFFCE5D0E5D93FE6EED210582 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 73EFB8B38188EE81EE35FB854333130D /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8449E480D32E16FCD3D52C6DA0CC1076 /* mmx_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42F927CDF72B3F17A677369C82EC2E0E /* mmx_optimized.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		84B4A5163DD164FADF667608C1B868D6 /* AAFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C684214D473ABA99A3A3B04FC6F210A8 /* AAFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B36851D88C7A222C52852CF412C19DD /* BPMDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E278871F40C339C9B0CBFD99DA85C01 /* BPMDetect.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		90312B83ECE7F8D176BB0C41C335139E /* DDYAudioChange.mm in Sources */ = {isa = PBXBuildFile; fileRef = E16D393002FE825251B22A171F285F2B /* DDYAudioChange.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		91BC4A59A8413D9B9F2C17ABE318C8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		9833BA1BAB5D67ACCD0E32262EA39BE8 /* DDYSoundChange.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8BA4A2D7B460020E005C11F9726B04C /* DDYSoundChange.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		98AFA3071E08BB6BECE06C73B1990696 /* DDYAudioUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30806099E0EEFB3352C4BD80643CC10 /* DDYAudioUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3D67FAC680B25D177AD9F79C927A24 /* WaveHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC055850B99E4E343DBA5F5F8FFD0B9 /* WaveHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4B2EFC7CEA378812C6D030F2C5659C /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F15D8999EE6D8DAF078D9203C6F6257C /* PeakFinder.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A5AD9F91B5822C43009F3DB5C01EED20 /* DDYConvertToAmr.h in Headers */ = {isa = PBXBuildFile; fileRef = 051C2AE7AB72909387109FCD66C38219 /* DDYConvertToAmr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD95E8FEE2F1CBC4EE0F929137239F60 /* DDYMp3RecordWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = F585521C4FE3E3BE85AF28ED0FECACC4 /* DDYMp3RecordWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49A61BE1EEE48F24218B9771AE84D55 /* DDYAudioMeterObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F927907CA8AA23A846E15A681428B86E /* DDYAudioMeterObserver.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B5E6EACF97CA0DB1BABF08EEE87CC8E0 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2CBAD8EED2BEBDC850E0C72335A1E5 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C527F496DB26C1EAFCA5FDA8059C600F /* DDYSoundTouch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 766BC207CB7F0577C1214B60F640A095 /* DDYSoundTouch-dummy.m */; };
+		C6688CDB588A4F50BF69C0462AC33DCF /* FIFOSamplePipe.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D68AAD282C74629E22A2A4060B27CF /* FIFOSamplePipe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C951A5D38F342BE11865A679D2FB849F /* DDYAudioUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5DD14E26EFA58F78C287228C799546 /* DDYAudioUtils-dummy.m */; };
+		CD83CA4FC7C20CBEDF026E27E52F5F43 /* WaveHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57BB42E32FA886998167EB561D885B10 /* WaveHeader.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D35A449B692F7EF33DCAB0CEC6E12695 /* DDYSoundChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCFA7BE09BFF2E37787E3A3493D58F /* DDYSoundChange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C100387B238A9495303900CFF13521 /* DDYAudioChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD640B8588EFC64F0E4BF1CA01C45B0 /* DDYAudioChange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5DEEF7910BBA5F54B2A002129838A3 /* BPMDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 1821EBB356953CC6E7651297718BB8E2 /* BPMDetect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC78E0342DA2CF03215B3D8A753150D2 /* TDStretch.h in Headers */ = {isa = PBXBuildFile; fileRef = D58662D4789CFB170C5C8A44E857330E /* TDStretch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EECC08A3E9F23BAC6B2D37BD1BE08AF4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */; };
+		F7DA9B13404201E398B3A82F2EC1AB8B /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 744BAC3C6BA388D46E2199BA171EFB25 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9D8EA90A42396B0A2A684CAA4284FB1 /* DDYAmrRecordWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1F4D4B3AAFA59D312DD1C914F6D1EC /* DDYAmrRecordWriter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA1A8C23F8EC5D9D7CAC39EFF9E238D5 /* DDYConvertToAmr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1E1BBAA6CB0D448527A68428A2A12864 /* DDYConvertToAmr.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BEC4A1053444A8E5A3FF18F4099EB17 /* PBXContainerItemProxy */ = {
+		02EE4F524C3B1352EE42670F541A430E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B301805B4C4A744B0A6130EC54A226;
 			remoteInfo = DDYAudioUtils;
 		};
+		97ED60F54405D48A8723C6F52EE8FC18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E60EE3ED73B3C39C0D15DBEE599C74;
+			remoteInfo = DDYSoundTouch;
+		};
+		EB5906F2DA3539C0D53924746E9F454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E60EE3ED73B3C39C0D15DBEE599C74;
+			remoteInfo = DDYSoundTouch;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F15674A7DC1F1E4526048E54CFECCE /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "DDYAudioUtils/amr/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		02786D54E60B873C469B99A4A7C61672 /* RateTransposer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = RateTransposer.cpp; path = DDYSoundTouch/RateTransposer.cpp; sourceTree = "<group>"; };
+		0325E21AA8018A374A583C8142A787BD /* SoundTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoundTouch.h; path = DDYSoundTouch/SoundTouch.h; sourceTree = "<group>"; };
+		051C2AE7AB72909387109FCD66C38219 /* DDYConvertToAmr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYConvertToAmr.h; path = DDYAudioUtils/amr/DDYConvertToAmr.h; sourceTree = "<group>"; };
+		057C94D357A6B66F69A3CE699FF3DC58 /* DDYAmrRecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAmrRecordWriter.h; path = DDYAudioUtils/amr/DDYAmrRecordWriter.h; sourceTree = "<group>"; };
+		07BAF96FC5740AE60D102C1454F4B922 /* DDYCafRecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYCafRecordWriter.m; path = DDYAudioUtils/core/DDYCafRecordWriter.m; sourceTree = "<group>"; };
 		07D899F06CF88385EDA874D081F60D55 /* Pods-DDYAudioUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDYAudioUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		085F9C2031EF656CF11DE2D70E4A3702 /* Pods-DDYAudioUtilsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDYAudioUtilsDemo.modulemap"; sourceTree = "<group>"; };
 		094236ABB9E7C55120F8B8598356BEAA /* Pods-DDYAudioUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDYAudioUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
-		0AEC62115AC9121ECBBA94563990430E /* DDYAudioUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYAudioUtils.release.xcconfig; sourceTree = "<group>"; };
-		12BCF29A8E2865728769690BBD3DB757 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
-		16621FA6886D3B9A9043B223857DD08E /* DDYAudioUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDYAudioUtils-Info.plist"; sourceTree = "<group>"; };
-		1863B6C585CB3D7BA59F2651A8F7E73D /* DDYMp3RecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYMp3RecordWriter.h; path = DDYAudioUtils/mp3/DDYMp3RecordWriter.h; sourceTree = "<group>"; };
-		19F4561A032B5EC0BCD15E42A3461351 /* DDYConvertToMp3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYConvertToMp3.h; path = DDYAudioUtils/mp3/DDYConvertToMp3.h; sourceTree = "<group>"; };
-		1BEE97525D27AFC4A2E9EA27A293E9EB /* DDYCafRecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYCafRecordWriter.h; path = DDYAudioUtils/core/DDYCafRecordWriter.h; sourceTree = "<group>"; };
+		094B96BD9CAE3C75A6044E3BFE30BCEE /* DDYAudioRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioRecorder.h; path = DDYAudioUtils/core/DDYAudioRecorder.h; sourceTree = "<group>"; };
+		0D8CBAAF8F7612FD1AA3E707B0C078A2 /* FIRFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFilter.h; path = DDYSoundTouch/FIRFilter.h; sourceTree = "<group>"; };
+		1821EBB356953CC6E7651297718BB8E2 /* BPMDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BPMDetect.h; path = DDYSoundTouch/BPMDetect.h; sourceTree = "<group>"; };
+		1E1BBAA6CB0D448527A68428A2A12864 /* DDYConvertToAmr.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = DDYConvertToAmr.mm; path = DDYAudioUtils/amr/DDYConvertToAmr.mm; sourceTree = "<group>"; };
 		1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		208C7DCA73C83E759AAE6C704971CF84 /* PeakFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PeakFinder.h; path = DDYSoundTouch/PeakFinder.h; sourceTree = "<group>"; };
 		25D1BC499DA278E8C7FD4F35CBAE7D6C /* Pods-DDYAudioUtilsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDYAudioUtilsDemo-umbrella.h"; sourceTree = "<group>"; };
 		25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		285C29B627AB2FC77B1BFAD8E8FCB087 /* Pods-DDYAudioUtilsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDYAudioUtilsDemo-Info.plist"; sourceTree = "<group>"; };
-		35DECC4AA4AE6C336418E37C1247DB02 /* DDYAudioUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioUtils.h; path = DDYAudioUtils/core/DDYAudioUtils.h; sourceTree = "<group>"; };
-		3ACC04FE92652CE68E41D94496883B2C /* DDYAudioRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioRecorder.m; path = DDYAudioUtils/core/DDYAudioRecorder.m; sourceTree = "<group>"; };
+		31F2C8073DC40508D837621CAC3929B3 /* sse_optimized.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = sse_optimized.cpp; path = DDYSoundTouch/sse_optimized.cpp; sourceTree = "<group>"; };
+		3AA48F76DEDE83FBBD09F5995235322F /* DDYAudioUtilsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioUtilsHeader.h; path = DDYAudioUtils/core/DDYAudioUtilsHeader.h; sourceTree = "<group>"; };
 		3C9E4D0B374B0AA42A6AA41698B76F93 /* Pods-DDYAudioUtilsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDYAudioUtilsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		40A078D4B57B9F7A91E85D842609C48E /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
-		40AC43E868971DE4DB1B3E87DCA044D5 /* DDYAudioUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYAudioUtils.debug.xcconfig; sourceTree = "<group>"; };
-		43EB5ED3DCE3C024BC7ACA1A2074FAFE /* DDYAudioRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioRecorder.h; path = DDYAudioUtils/core/DDYAudioRecorder.h; sourceTree = "<group>"; };
-		54DA688DBD7CA0BC3F29FDBC596D213D /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lame.framework; path = DDYAudioUtils/mp3/lame.framework; sourceTree = "<group>"; };
-		63C8F95FA9D65DB478E854FFD362B6E1 /* DDYConvertToAmr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYConvertToAmr.h; path = DDYAudioUtils/amr/DDYConvertToAmr.h; sourceTree = "<group>"; };
-		6EBA75D29F9982D5473AD4676F26E339 /* DDYConvertToMp3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYConvertToMp3.m; path = DDYAudioUtils/mp3/DDYConvertToMp3.m; sourceTree = "<group>"; };
-		76E15D1F2AD35924646EC223CD732CF0 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
-		7FE5BF1141FBADBEEE82244F7B031935 /* DDYConvertToAmr.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = DDYConvertToAmr.mm; path = DDYAudioUtils/amr/DDYConvertToAmr.mm; sourceTree = "<group>"; };
-		80496297916C7CE2F647C9CF3F08188C /* DDYAudioUtilsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioUtilsHeader.h; path = DDYAudioUtils/core/DDYAudioUtilsHeader.h; sourceTree = "<group>"; };
-		9B1D3DF511122966C5954F751FDB5CF3 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
-		9C2B65D48B705FAEDA59427677AC163D /* DDYAmrRecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAmrRecordWriter.h; path = DDYAudioUtils/amr/DDYAmrRecordWriter.h; sourceTree = "<group>"; };
+		3EB7EEE56B039C9AE54215CF9CD1BDE5 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lame.framework; path = DDYAudioUtils/mp3/lame.framework; sourceTree = "<group>"; };
+		3FF085D84B2B30423BF5A27E9A4F376A /* cpu_detect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cpu_detect.h; path = DDYSoundTouch/cpu_detect.h; sourceTree = "<group>"; };
+		42F927CDF72B3F17A677369C82EC2E0E /* mmx_optimized.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = mmx_optimized.cpp; path = DDYSoundTouch/mmx_optimized.cpp; sourceTree = "<group>"; };
+		47A7C390042D8D54BE6AC43E7B6B3951 /* AAFilter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = AAFilter.cpp; path = DDYSoundTouch/AAFilter.cpp; sourceTree = "<group>"; };
+		4AD640B8588EFC64F0E4BF1CA01C45B0 /* DDYAudioChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioChange.h; path = DDYAudioUtils/soundtouch/DDYAudioChange.h; sourceTree = "<group>"; };
+		4F9F40BBBD07E1E3C5A56538E1926C18 /* DDYAudioUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDYAudioUtils.modulemap; sourceTree = "<group>"; };
+		51939BA7754D9DD399FE3CC50F81A4B2 /* DDYSoundTouch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDYSoundTouch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54821D08D82BD9CB1487BF87AAE69C97 /* FIRFilter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = FIRFilter.cpp; path = DDYSoundTouch/FIRFilter.cpp; sourceTree = "<group>"; };
+		57BB42E32FA886998167EB561D885B10 /* WaveHeader.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = WaveHeader.cpp; path = DDYSoundTouch/WaveHeader.cpp; sourceTree = "<group>"; };
+		5B179444ABB3FB1BC0131CFAFB3A1CB6 /* FIFOSampleBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIFOSampleBuffer.h; path = DDYSoundTouch/FIFOSampleBuffer.h; sourceTree = "<group>"; };
+		5B2CBAD8EED2BEBDC850E0C72335A1E5 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		5E278871F40C339C9B0CBFD99DA85C01 /* BPMDetect.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = BPMDetect.cpp; path = DDYSoundTouch/BPMDetect.cpp; sourceTree = "<group>"; };
+		5FC055850B99E4E343DBA5F5F8FFD0B9 /* WaveHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WaveHeader.h; path = DDYSoundTouch/WaveHeader.h; sourceTree = "<group>"; };
+		68F980266DA7F749B4505B267E91384F /* DDYSoundTouch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYSoundTouch-prefix.pch"; sourceTree = "<group>"; };
+		69D4DFE356DE0A8E387C6DA2B5C372F3 /* DDYAudioUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioUtils.h; path = DDYAudioUtils/core/DDYAudioUtils.h; sourceTree = "<group>"; };
+		6A843960B4A2EFD5DA345EA1CD609FD7 /* DDYAudioUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYAudioUtils.release.xcconfig; sourceTree = "<group>"; };
+		70765CAE5CADEEE8B7B559503E079AED /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		708673FC8FA225C57A3F98A60D89FA3A /* RateTransposer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RateTransposer.h; path = DDYSoundTouch/RateTransposer.h; sourceTree = "<group>"; };
+		70E133659FE7590442802EB95717558C /* DDYAudioRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioRecorder.m; path = DDYAudioUtils/core/DDYAudioRecorder.m; sourceTree = "<group>"; };
+		729DC8FCA2DB05599567D96F8C129AAC /* DDYAudioUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYAudioUtils-prefix.pch"; sourceTree = "<group>"; };
+		73EFB8B38188EE81EE35FB854333130D /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		744BAC3C6BA388D46E2199BA171EFB25 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		766BC207CB7F0577C1214B60F640A095 /* DDYSoundTouch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDYSoundTouch-dummy.m"; sourceTree = "<group>"; };
+		842804F45ED59BBCB8D04392A2E37E50 /* soundtouch_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = soundtouch_config.h; path = DDYSoundTouch/soundtouch_config.h; sourceTree = "<group>"; };
+		88AB471B08F614ED7E099231F821AA13 /* DDYAmrPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAmrPlayer.m; path = DDYAudioUtils/amr/DDYAmrPlayer.m; sourceTree = "<group>"; };
+		8F05E5E24A6EE109DCA98E509C8D7C2A /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		96DCFA7BE09BFF2E37787E3A3493D58F /* DDYSoundChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYSoundChange.h; path = DDYSoundTouch/DDYSoundChange.h; sourceTree = "<group>"; };
+		98E42821D7CD7EC115A61902159CCB01 /* DDYSoundTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYSoundTouch.debug.xcconfig; sourceTree = "<group>"; };
+		9AC6F2EF117981687E72EEC2830AAE26 /* DDYAmrPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAmrPlayer.h; path = DDYAudioUtils/amr/DDYAmrPlayer.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F9BFD04E9B9A51BB9F96C79BA0FB495 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
-		A854C222846716FA9DC374C0D23350DE /* DDYAudioUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDYAudioUtils-dummy.m"; sourceTree = "<group>"; };
+		9F5FFBAFF29389D8EF537B4505C5929C /* DDYAudioMeterObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioMeterObserver.h; path = DDYAudioUtils/core/DDYAudioMeterObserver.h; sourceTree = "<group>"; };
+		A20D32F9C9D88508BE1321FD353F6D20 /* DDYSoundTouch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDYSoundTouch; path = DDYSoundTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30806099E0EEFB3352C4BD80643CC10 /* DDYAudioUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYAudioUtils-umbrella.h"; sourceTree = "<group>"; };
 		AC12EB46C22972274709A70E30436227 /* Pods-DDYAudioUtilsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDYAudioUtilsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ACB1F14EEE4EFD23FF70D35A2867D3B6 /* DDYAudioMeterObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioMeterObserver.m; path = DDYAudioUtils/core/DDYAudioMeterObserver.m; sourceTree = "<group>"; };
-		B55A8F1C6D2D05032523DD9BF6E0C1BE /* DDYAudioUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYAudioUtils-umbrella.h"; sourceTree = "<group>"; };
-		B88F6593D3D099F119CC043ED529E74D /* DDYAudioUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDYAudioUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2004C04E0316BD2666595D97E3CDBD5 /* DDYAmrPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAmrPlayer.h; path = DDYAudioUtils/amr/DDYAmrPlayer.h; sourceTree = "<group>"; };
-		C3FD422998D3E3F0BDD1DCA906CB964E /* DDYAmrPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAmrPlayer.m; path = DDYAudioUtils/amr/DDYAmrPlayer.m; sourceTree = "<group>"; };
-		C6D114719AEA2BC93ED5D41BE1035469 /* DDYAudioMeterObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYAudioMeterObserver.h; path = DDYAudioUtils/core/DDYAudioMeterObserver.h; sourceTree = "<group>"; };
-		C807E4BE6F03C8F3AC0AEC53D3850288 /* DDYAudioUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioUtils.m; path = DDYAudioUtils/core/DDYAudioUtils.m; sourceTree = "<group>"; };
+		AF91CDA8740345C0DD6EDE823565F4A3 /* DDYMp3RecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYMp3RecordWriter.m; path = DDYAudioUtils/mp3/DDYMp3RecordWriter.m; sourceTree = "<group>"; };
+		B05DCB626FB6EC8C8E89C153D2273E16 /* cpu_detect_x86.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = cpu_detect_x86.cpp; path = DDYSoundTouch/cpu_detect_x86.cpp; sourceTree = "<group>"; };
+		B162D6A47BC64B9F582EDE891F552CEE /* DDYAudioUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYAudioUtils.debug.xcconfig; sourceTree = "<group>"; };
+		B50320A1A1538B753C7BDAD7DB9235F1 /* DDYSoundTouch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDYSoundTouch.modulemap; sourceTree = "<group>"; };
+		BA106A6CC74C4263F1DF531FFC2DBC37 /* TDStretch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TDStretch.cpp; path = DDYSoundTouch/TDStretch.cpp; sourceTree = "<group>"; };
+		BB5DD14E26EFA58F78C287228C799546 /* DDYAudioUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDYAudioUtils-dummy.m"; sourceTree = "<group>"; };
+		C0C62445943DAED588920AA6CF67AD09 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "DDYAudioUtils/amr/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		C684214D473ABA99A3A3B04FC6F210A8 /* AAFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAFilter.h; path = DDYSoundTouch/AAFilter.h; sourceTree = "<group>"; };
+		C87979EE195F3BD48B602925BBCEACBD /* SoundTouch.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SoundTouch.cpp; path = DDYSoundTouch/SoundTouch.cpp; sourceTree = "<group>"; };
 		CBDEA198CCB0FAAA748F132C748AC56D /* Pods-DDYAudioUtilsDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DDYAudioUtilsDemo"; path = Pods_DDYAudioUtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0F55BF77106ABA6C96AA1333A16AD90 /* DDYCafRecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYCafRecordWriter.m; path = DDYAudioUtils/core/DDYCafRecordWriter.m; sourceTree = "<group>"; };
+		D58662D4789CFB170C5C8A44E857330E /* TDStretch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TDStretch.h; path = DDYSoundTouch/TDStretch.h; sourceTree = "<group>"; };
 		D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDYAudioUtils; path = DDYAudioUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FA3D84C1B4171F0D3839FD0C87782 /* FIFOSampleBuffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = FIFOSampleBuffer.cpp; path = DDYSoundTouch/FIFOSampleBuffer.cpp; sourceTree = "<group>"; };
 		D82B073EE56F3D4C18E89A852FA73FFE /* Pods-DDYAudioUtilsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDYAudioUtilsDemo-dummy.m"; sourceTree = "<group>"; };
+		D8BA4A2D7B460020E005C11F9726B04C /* DDYSoundChange.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = DDYSoundChange.mm; path = DDYSoundTouch/DDYSoundChange.mm; sourceTree = "<group>"; };
+		DB1CDA035AF14DBF67B7021D53E5BD7B /* DDYAudioUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDYAudioUtils-Info.plist"; sourceTree = "<group>"; };
 		DC057C072FFE176814101E3E03FF8518 /* Pods-DDYAudioUtilsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDYAudioUtilsDemo-frameworks.sh"; sourceTree = "<group>"; };
-		DC2437E1F59FB87B0FC98139DD3B191F /* DDYAudioUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDYAudioUtils.modulemap; sourceTree = "<group>"; };
+		DD45A69B2924C581E33B2072396376FE /* DDYConvertToMp3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYConvertToMp3.h; path = DDYAudioUtils/mp3/DDYConvertToMp3.h; sourceTree = "<group>"; };
+		E16D393002FE825251B22A171F285F2B /* DDYAudioChange.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = DDYAudioChange.mm; path = DDYAudioUtils/soundtouch/DDYAudioChange.mm; sourceTree = "<group>"; };
 		E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		E7547F1EC3FA08217D52C3F36DB14849 /* DDYAmrRecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAmrRecordWriter.m; path = DDYAudioUtils/amr/DDYAmrRecordWriter.m; sourceTree = "<group>"; };
-		F8741479471C8752CA95201BE3F0024F /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
-		F9F96F57DCB86B2E80FA831F90F83503 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "DDYAudioUtils/amr/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
-		FADFDB42A9EB17FF1ADC0E726989D696 /* DDYAudioUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYAudioUtils-prefix.pch"; sourceTree = "<group>"; };
-		FFD68DA4C37F26383ACD920FEE42E620 /* DDYMp3RecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYMp3RecordWriter.m; path = DDYAudioUtils/mp3/DDYMp3RecordWriter.m; sourceTree = "<group>"; };
+		E465FCF915E6D91AC08F18CD5DA3C68E /* DDYSoundTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDYSoundTouch.release.xcconfig; sourceTree = "<group>"; };
+		E55F9C1E6DC2BDD19C13355AF2ACD790 /* DDYSoundTouch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDYSoundTouch-Info.plist"; sourceTree = "<group>"; };
+		E7D68AAD282C74629E22A2A4060B27CF /* FIFOSamplePipe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIFOSamplePipe.h; path = DDYSoundTouch/FIFOSamplePipe.h; sourceTree = "<group>"; };
+		E80AD75737B4018194DD5B654B84F6EF /* STTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTypes.h; path = DDYSoundTouch/STTypes.h; sourceTree = "<group>"; };
+		EB1F4D4B3AAFA59D312DD1C914F6D1EC /* DDYAmrRecordWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAmrRecordWriter.m; path = DDYAudioUtils/amr/DDYAmrRecordWriter.m; sourceTree = "<group>"; };
+		EC9A5A68F8A249D818B20DDA27A761F2 /* DDYAudioUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioUtils.m; path = DDYAudioUtils/core/DDYAudioUtils.m; sourceTree = "<group>"; };
+		F15D8999EE6D8DAF078D9203C6F6257C /* PeakFinder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = PeakFinder.cpp; path = DDYSoundTouch/PeakFinder.cpp; sourceTree = "<group>"; };
+		F37FE16597CE1C536B03B8809E7F15F5 /* DDYSoundTouch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDYSoundTouch-umbrella.h"; sourceTree = "<group>"; };
+		F585521C4FE3E3BE85AF28ED0FECACC4 /* DDYMp3RecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYMp3RecordWriter.h; path = DDYAudioUtils/mp3/DDYMp3RecordWriter.h; sourceTree = "<group>"; };
+		F754BDCAFF0A54352DB01929E799CF25 /* DDYCafRecordWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDYCafRecordWriter.h; path = DDYAudioUtils/core/DDYCafRecordWriter.h; sourceTree = "<group>"; };
+		F7D31AE164BBF70D901D3F98B35CBE30 /* DDYConvertToMp3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYConvertToMp3.m; path = DDYAudioUtils/mp3/DDYConvertToMp3.m; sourceTree = "<group>"; };
+		F8E8D401CC679503766B1014600E34F0 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "DDYAudioUtils/amr/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		F927907CA8AA23A846E15A681428B86E /* DDYAudioMeterObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDYAudioMeterObserver.m; path = DDYAudioUtils/core/DDYAudioMeterObserver.m; sourceTree = "<group>"; };
+		FE28AB5F7810CF180E21C97E958E5597 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DB77A7AA12C4A51F0247CE81CEBB9C0 /* Frameworks */ = {
+		05B2E0277304C423BADC8D97EFC335B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75EE58976AD02A091D9647781F43EE65 /* Foundation.framework in Frameworks */,
+				12EE9EA9CD882FDCEEE8E15368810B17 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5ADBB0C27C280AEB8F2805F50833226 /* Frameworks */ = {
+		6D4223BB29356E0A28C43C9E53B45FD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5881612DFBF0877964283FE3D1112A61 /* AVFoundation.framework in Frameworks */,
-				843A193FDE163E265A55A73406548BD3 /* Foundation.framework in Frameworks */,
-				91A0A8BDA72F210F03DDDFDC442E9C5B /* UIKit.framework in Frameworks */,
+				91BC4A59A8413D9B9F2C17ABE318C8DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC13D5393E8FA4D6E570D32A0EA7E4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECC08A3E9F23BAC6B2D37BD1BE08AF4 /* AVFoundation.framework in Frameworks */,
+				4E72F7FEB4DCDB2E9698FCB4E3265819 /* Foundation.framework in Frameworks */,
+				541BDB7E99E64A3B41896A4FF3A84F53 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,56 +227,97 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		090189875741F8FEB8C5B4F1B963FACB /* Mp3 */ = {
+		044DB734725256958522306BA6442299 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				19F4561A032B5EC0BCD15E42A3461351 /* DDYConvertToMp3.h */,
-				6EBA75D29F9982D5473AD4676F26E339 /* DDYConvertToMp3.m */,
-				1863B6C585CB3D7BA59F2651A8F7E73D /* DDYMp3RecordWriter.h */,
-				FFD68DA4C37F26383ACD920FEE42E620 /* DDYMp3RecordWriter.m */,
-				D18198D5CC7E3F5B7B3B96D99738201F /* Frameworks */,
-			);
-			name = Mp3;
-			sourceTree = "<group>";
-		};
-		0CE1A2417ADD259AAF1CC5CDB78D0A12 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				C6D114719AEA2BC93ED5D41BE1035469 /* DDYAudioMeterObserver.h */,
-				ACB1F14EEE4EFD23FF70D35A2867D3B6 /* DDYAudioMeterObserver.m */,
-				43EB5ED3DCE3C024BC7ACA1A2074FAFE /* DDYAudioRecorder.h */,
-				3ACC04FE92652CE68E41D94496883B2C /* DDYAudioRecorder.m */,
-				35DECC4AA4AE6C336418E37C1247DB02 /* DDYAudioUtils.h */,
-				C807E4BE6F03C8F3AC0AEC53D3850288 /* DDYAudioUtils.m */,
-				80496297916C7CE2F647C9CF3F08188C /* DDYAudioUtilsHeader.h */,
-				1BEE97525D27AFC4A2E9EA27A293E9EB /* DDYCafRecordWriter.h */,
-				D0F55BF77106ABA6C96AA1333A16AD90 /* DDYCafRecordWriter.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		22A78F980F7913AE0975703E87D32735 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC2437E1F59FB87B0FC98139DD3B191F /* DDYAudioUtils.modulemap */,
-				A854C222846716FA9DC374C0D23350DE /* DDYAudioUtils-dummy.m */,
-				16621FA6886D3B9A9043B223857DD08E /* DDYAudioUtils-Info.plist */,
-				FADFDB42A9EB17FF1ADC0E726989D696 /* DDYAudioUtils-prefix.pch */,
-				B55A8F1C6D2D05032523DD9BF6E0C1BE /* DDYAudioUtils-umbrella.h */,
-				40AC43E868971DE4DB1B3E87DCA044D5 /* DDYAudioUtils.debug.xcconfig */,
-				0AEC62115AC9121ECBBA94563990430E /* DDYAudioUtils.release.xcconfig */,
+				4F9F40BBBD07E1E3C5A56538E1926C18 /* DDYAudioUtils.modulemap */,
+				BB5DD14E26EFA58F78C287228C799546 /* DDYAudioUtils-dummy.m */,
+				DB1CDA035AF14DBF67B7021D53E5BD7B /* DDYAudioUtils-Info.plist */,
+				729DC8FCA2DB05599567D96F8C129AAC /* DDYAudioUtils-prefix.pch */,
+				A30806099E0EEFB3352C4BD80643CC10 /* DDYAudioUtils-umbrella.h */,
+				B162D6A47BC64B9F582EDE891F552CEE /* DDYAudioUtils.debug.xcconfig */,
+				6A843960B4A2EFD5DA345EA1CD609FD7 /* DDYAudioUtils.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../DDYAudioUtilsDemo/Pods/Target Support Files/DDYAudioUtils";
 			sourceTree = "<group>";
 		};
-		347854C7ACC68A9F35389D66867B5A2C /* Frameworks */ = {
+		05C1FFAAAB22856EA22D5643411069BE /* Amr */ = {
 			isa = PBXGroup;
 			children = (
-				05F15674A7DC1F1E4526048E54CFECCE /* libopencore-amrnb.a */,
-				F9F96F57DCB86B2E80FA831F90F83503 /* libopencore-amrwb.a */,
+				9AC6F2EF117981687E72EEC2830AAE26 /* DDYAmrPlayer.h */,
+				88AB471B08F614ED7E099231F821AA13 /* DDYAmrPlayer.m */,
+				057C94D357A6B66F69A3CE699FF3DC58 /* DDYAmrRecordWriter.h */,
+				EB1F4D4B3AAFA59D312DD1C914F6D1EC /* DDYAmrRecordWriter.m */,
+				051C2AE7AB72909387109FCD66C38219 /* DDYConvertToAmr.h */,
+				1E1BBAA6CB0D448527A68428A2A12864 /* DDYConvertToAmr.mm */,
+				353A9A481DDD266E454BAD09FCEFE47D /* amrwapper */,
+				C2C1A0B773016A9F6EB2E7E966B3EE23 /* Frameworks */,
+				88DCED37DFC69E521093AEBB5E283EC8 /* include */,
 			);
-			name = Frameworks;
+			name = Amr;
+			sourceTree = "<group>";
+		};
+		0E826B81290E8D4EBBD2368DF05014B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				51939BA7754D9DD399FE3CC50F81A4B2 /* DDYSoundTouch.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		18E32A5A5A5F5ED66AEB5B02F6AF7BBE /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				73EFB8B38188EE81EE35FB854333130D /* interf_dec.h */,
+				70765CAE5CADEEE8B7B559503E079AED /* interf_enc.h */,
+			);
+			name = "opencore-amrnb";
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		1A547CC6EADB9086BA5548DFA551AD64 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				8F05E5E24A6EE109DCA98E509C8D7C2A /* dec_if.h */,
+				5B2CBAD8EED2BEBDC850E0C72335A1E5 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		1AFADBF719B1B53F80DF188BE12B1CDB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55AE19874D78186B4643B9795A3EB767 /* DDYAudioUtils */,
+				C079BCC16E7EDB60CAA5697EE9E2CF37 /* DDYSoundTouch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		219951244DACF034044F5A62C46D7055 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50320A1A1538B753C7BDAD7DB9235F1 /* DDYSoundTouch.modulemap */,
+				766BC207CB7F0577C1214B60F640A095 /* DDYSoundTouch-dummy.m */,
+				E55F9C1E6DC2BDD19C13355AF2ACD790 /* DDYSoundTouch-Info.plist */,
+				68F980266DA7F749B4505B267E91384F /* DDYSoundTouch-prefix.pch */,
+				F37FE16597CE1C536B03B8809E7F15F5 /* DDYSoundTouch-umbrella.h */,
+				98E42821D7CD7EC115A61902159CCB01 /* DDYSoundTouch.debug.xcconfig */,
+				E465FCF915E6D91AC08F18CD5DA3C68E /* DDYSoundTouch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../DDYAudioUtilsDemo/Pods/Target Support Files/DDYSoundTouch";
+			sourceTree = "<group>";
+		};
+		353A9A481DDD266E454BAD09FCEFE47D /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				744BAC3C6BA388D46E2199BA171EFB25 /* amrFileCodec.h */,
+				FE28AB5F7810CF180E21C97E958E5597 /* amrFileCodec.mm */,
+			);
+			name = amrwapper;
+			path = DDYAudioUtils/amr/amrwapper;
 			sourceTree = "<group>";
 		};
 		439889605EFAD97B3872FAF274DF229F /* iOS */ = {
@@ -198,52 +330,128 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		62E30B319D3911462C964844B02E095F /* include */ = {
+		5181A1EB1FBEA2E4F9C633D76C9F9EE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCBBFF8BF3687637BE060286EC44A48D /* opencore-amrnb */,
-				BB9B8C07B06FEBD6DCD57C2EF15F8607 /* opencore-amrwb */,
+				D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */,
+				A20D32F9C9D88508BE1321FD353F6D20 /* DDYSoundTouch */,
+				CBDEA198CCB0FAAA748F132C748AC56D /* Pods-DDYAudioUtilsDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55AE19874D78186B4643B9795A3EB767 /* DDYAudioUtils */ = {
+			isa = PBXGroup;
+			children = (
+				05C1FFAAAB22856EA22D5643411069BE /* Amr */,
+				8A7B9218A7D7C0EE0538843FE20D2A66 /* Core */,
+				5F89263684ADF0BB0274D3B7339B8C8C /* Mp3 */,
+				91D0580584361F9DD1F1B38A9A0C008E /* SoundTouch */,
+				044DB734725256958522306BA6442299 /* Support Files */,
+			);
+			name = DDYAudioUtils;
+			path = ../../DDYAudioUtils;
+			sourceTree = "<group>";
+		};
+		5F89263684ADF0BB0274D3B7339B8C8C /* Mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				DD45A69B2924C581E33B2072396376FE /* DDYConvertToMp3.h */,
+				F7D31AE164BBF70D901D3F98B35CBE30 /* DDYConvertToMp3.m */,
+				F585521C4FE3E3BE85AF28ED0FECACC4 /* DDYMp3RecordWriter.h */,
+				AF91CDA8740345C0DD6EDE823565F4A3 /* DDYMp3RecordWriter.m */,
+				8077431F95E1A3BEA94DBDFC303070F7 /* Frameworks */,
+			);
+			name = Mp3;
+			sourceTree = "<group>";
+		};
+		8077431F95E1A3BEA94DBDFC303070F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB7EEE56B039C9AE54215CF9CD1BDE5 /* lame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88DCED37DFC69E521093AEBB5E283EC8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				18E32A5A5A5F5ED66AEB5B02F6AF7BBE /* opencore-amrnb */,
+				1A547CC6EADB9086BA5548DFA551AD64 /* opencore-amrwb */,
 			);
 			name = include;
 			path = DDYAudioUtils/amr/include;
 			sourceTree = "<group>";
 		};
-		7ABA7CDC8DA661F3D505608D885115F0 /* Pod */ = {
+		8A7B9218A7D7C0EE0538843FE20D2A66 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B88F6593D3D099F119CC043ED529E74D /* DDYAudioUtils.podspec */,
+				9F5FFBAFF29389D8EF537B4505C5929C /* DDYAudioMeterObserver.h */,
+				F927907CA8AA23A846E15A681428B86E /* DDYAudioMeterObserver.m */,
+				094B96BD9CAE3C75A6044E3BFE30BCEE /* DDYAudioRecorder.h */,
+				70E133659FE7590442802EB95717558C /* DDYAudioRecorder.m */,
+				69D4DFE356DE0A8E387C6DA2B5C372F3 /* DDYAudioUtils.h */,
+				EC9A5A68F8A249D818B20DDA27A761F2 /* DDYAudioUtils.m */,
+				3AA48F76DEDE83FBBD09F5995235322F /* DDYAudioUtilsHeader.h */,
+				F754BDCAFF0A54352DB01929E799CF25 /* DDYCafRecordWriter.h */,
+				07BAF96FC5740AE60D102C1454F4B922 /* DDYCafRecordWriter.m */,
 			);
-			name = Pod;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		80D3821BFFCA7C675687AC9D53504ABC /* amrwapper */ = {
+		91D0580584361F9DD1F1B38A9A0C008E /* SoundTouch */ = {
 			isa = PBXGroup;
 			children = (
-				9B1D3DF511122966C5954F751FDB5CF3 /* amrFileCodec.h */,
-				40A078D4B57B9F7A91E85D842609C48E /* amrFileCodec.mm */,
+				4AD640B8588EFC64F0E4BF1CA01C45B0 /* DDYAudioChange.h */,
+				E16D393002FE825251B22A171F285F2B /* DDYAudioChange.mm */,
 			);
-			name = amrwapper;
-			path = DDYAudioUtils/amr/amrwapper;
+			name = SoundTouch;
 			sourceTree = "<group>";
 		};
-		BB9B8C07B06FEBD6DCD57C2EF15F8607 /* opencore-amrwb */ = {
+		C079BCC16E7EDB60CAA5697EE9E2CF37 /* DDYSoundTouch */ = {
 			isa = PBXGroup;
 			children = (
-				76E15D1F2AD35924646EC223CD732CF0 /* dec_if.h */,
-				9F9BFD04E9B9A51BB9F96C79BA0FB495 /* if_rom.h */,
+				47A7C390042D8D54BE6AC43E7B6B3951 /* AAFilter.cpp */,
+				C684214D473ABA99A3A3B04FC6F210A8 /* AAFilter.h */,
+				5E278871F40C339C9B0CBFD99DA85C01 /* BPMDetect.cpp */,
+				1821EBB356953CC6E7651297718BB8E2 /* BPMDetect.h */,
+				3FF085D84B2B30423BF5A27E9A4F376A /* cpu_detect.h */,
+				B05DCB626FB6EC8C8E89C153D2273E16 /* cpu_detect_x86.cpp */,
+				96DCFA7BE09BFF2E37787E3A3493D58F /* DDYSoundChange.h */,
+				D8BA4A2D7B460020E005C11F9726B04C /* DDYSoundChange.mm */,
+				D79FA3D84C1B4171F0D3839FD0C87782 /* FIFOSampleBuffer.cpp */,
+				5B179444ABB3FB1BC0131CFAFB3A1CB6 /* FIFOSampleBuffer.h */,
+				E7D68AAD282C74629E22A2A4060B27CF /* FIFOSamplePipe.h */,
+				54821D08D82BD9CB1487BF87AAE69C97 /* FIRFilter.cpp */,
+				0D8CBAAF8F7612FD1AA3E707B0C078A2 /* FIRFilter.h */,
+				42F927CDF72B3F17A677369C82EC2E0E /* mmx_optimized.cpp */,
+				F15D8999EE6D8DAF078D9203C6F6257C /* PeakFinder.cpp */,
+				208C7DCA73C83E759AAE6C704971CF84 /* PeakFinder.h */,
+				02786D54E60B873C469B99A4A7C61672 /* RateTransposer.cpp */,
+				708673FC8FA225C57A3F98A60D89FA3A /* RateTransposer.h */,
+				C87979EE195F3BD48B602925BBCEACBD /* SoundTouch.cpp */,
+				0325E21AA8018A374A583C8142A787BD /* SoundTouch.h */,
+				842804F45ED59BBCB8D04392A2E37E50 /* soundtouch_config.h */,
+				31F2C8073DC40508D837621CAC3929B3 /* sse_optimized.cpp */,
+				E80AD75737B4018194DD5B654B84F6EF /* STTypes.h */,
+				BA106A6CC74C4263F1DF531FFC2DBC37 /* TDStretch.cpp */,
+				D58662D4789CFB170C5C8A44E857330E /* TDStretch.h */,
+				57BB42E32FA886998167EB561D885B10 /* WaveHeader.cpp */,
+				5FC055850B99E4E343DBA5F5F8FFD0B9 /* WaveHeader.h */,
+				0E826B81290E8D4EBBD2368DF05014B8 /* Pod */,
+				219951244DACF034044F5A62C46D7055 /* Support Files */,
 			);
-			name = "opencore-amrwb";
-			path = "opencore-amrwb";
+			name = DDYSoundTouch;
+			path = ../../DDYAudioUtils;
 			sourceTree = "<group>";
 		};
-		CCBBFF8BF3687637BE060286EC44A48D /* opencore-amrnb */ = {
+		C2C1A0B773016A9F6EB2E7E966B3EE23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8741479471C8752CA95201BE3F0024F /* interf_dec.h */,
-				12BCF29A8E2865728769690BBD3DB757 /* interf_enc.h */,
+				C0C62445943DAED588920AA6CF67AD09 /* libopencore-amrnb.a */,
+				F8E8D401CC679503766B1014600E34F0 /* libopencore-amrwb.a */,
 			);
-			name = "opencore-amrnb";
-			path = "opencore-amrnb";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CDECED9D0C6E14DCFC57D44CE2F3598E /* Pods-DDYAudioUtilsDemo */ = {
@@ -267,19 +475,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E3B27ECB892F5CB7AE1A92AEAA7F34BD /* Development Pods */,
+				1AFADBF719B1B53F80DF188BE12B1CDB /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				E4EB3618DF3FFC81683605472942F84A /* Products */,
+				5181A1EB1FBEA2E4F9C633D76C9F9EE0 /* Products */,
 				E0AEA83AA55913F42D50ED609BE65559 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D18198D5CC7E3F5B7B3B96D99738201F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54DA688DBD7CA0BC3F29FDBC596D213D /* lame.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E0AEA83AA55913F42D50ED609BE65559 /* Targets Support Files */ = {
@@ -290,83 +490,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E31F9E7AFB032635D7B1B00BE89DFAF4 /* Amr */ = {
-			isa = PBXGroup;
-			children = (
-				C2004C04E0316BD2666595D97E3CDBD5 /* DDYAmrPlayer.h */,
-				C3FD422998D3E3F0BDD1DCA906CB964E /* DDYAmrPlayer.m */,
-				9C2B65D48B705FAEDA59427677AC163D /* DDYAmrRecordWriter.h */,
-				E7547F1EC3FA08217D52C3F36DB14849 /* DDYAmrRecordWriter.m */,
-				63C8F95FA9D65DB478E854FFD362B6E1 /* DDYConvertToAmr.h */,
-				7FE5BF1141FBADBEEE82244F7B031935 /* DDYConvertToAmr.mm */,
-				80D3821BFFCA7C675687AC9D53504ABC /* amrwapper */,
-				347854C7ACC68A9F35389D66867B5A2C /* Frameworks */,
-				62E30B319D3911462C964844B02E095F /* include */,
-			);
-			name = Amr;
-			sourceTree = "<group>";
-		};
-		E3B27ECB892F5CB7AE1A92AEAA7F34BD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA495A23CD081512732201621C65309F /* DDYAudioUtils */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E4EB3618DF3FFC81683605472942F84A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */,
-				CBDEA198CCB0FAAA748F132C748AC56D /* Pods-DDYAudioUtilsDemo */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FA495A23CD081512732201621C65309F /* DDYAudioUtils */ = {
-			isa = PBXGroup;
-			children = (
-				E31F9E7AFB032635D7B1B00BE89DFAF4 /* Amr */,
-				0CE1A2417ADD259AAF1CC5CDB78D0A12 /* Core */,
-				090189875741F8FEB8C5B4F1B963FACB /* Mp3 */,
-				7ABA7CDC8DA661F3D505608D885115F0 /* Pod */,
-				22A78F980F7913AE0975703E87D32735 /* Support Files */,
-			);
-			name = DDYAudioUtils;
-			path = ../../DDYAudioUtils;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05889D04BDF51712F9154201E8B2E238 /* Headers */ = {
+		1DE4A528B2E71489E6152DA995A79458 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB0027EE029D8AF8361D09D9B6526B97 /* Pods-DDYAudioUtilsDemo-umbrella.h in Headers */,
+				F7DA9B13404201E398B3A82F2EC1AB8B /* amrFileCodec.h in Headers */,
+				2280B8E61673AC64EB0BD096DFF7DD73 /* DDYAmrPlayer.h in Headers */,
+				478ACC14680011FD2A8BED86AEC65461 /* DDYAmrRecordWriter.h in Headers */,
+				D7C100387B238A9495303900CFF13521 /* DDYAudioChange.h in Headers */,
+				41074979D59193AA912F4A4B6F34D825 /* DDYAudioMeterObserver.h in Headers */,
+				71422F5EFB50ABD200A19519238AF2A1 /* DDYAudioRecorder.h in Headers */,
+				74212543E591B6174474F5C1E7DD7746 /* DDYAudioUtils.h in Headers */,
+				98AFA3071E08BB6BECE06C73B1990696 /* DDYAudioUtils-umbrella.h in Headers */,
+				40BD25333A216786A398DC9347C0A0DB /* DDYAudioUtilsHeader.h in Headers */,
+				2A7B756C2EB8A2EDD610D4A9F76F6495 /* DDYCafRecordWriter.h in Headers */,
+				A5AD9F91B5822C43009F3DB5C01EED20 /* DDYConvertToAmr.h in Headers */,
+				68C3B59477816BA2C0836F6DDC2D7746 /* DDYConvertToMp3.h in Headers */,
+				AD95E8FEE2F1CBC4EE0F929137239F60 /* DDYMp3RecordWriter.h in Headers */,
+				1CE83CE1919D13211316E6ECE560E4FB /* dec_if.h in Headers */,
+				B5E6EACF97CA0DB1BABF08EEE87CC8E0 /* if_rom.h in Headers */,
+				81206C2FFFCE5D0E5D93FE6EED210582 /* interf_dec.h in Headers */,
+				21C5AD544A085F67FE78B32F247CDBD9 /* interf_enc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F0F2C1C3237FA3F385C85D1F23C9BD4 /* Headers */ = {
+		734F7E32D98D0983EF6937B55DCC83C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8741B0366684690EC182AFFDBC3A66 /* amrFileCodec.h in Headers */,
-				4C6F7B4FD057DEB6EF965063CDAD7FB5 /* DDYAmrPlayer.h in Headers */,
-				5CF00E5DB6D8CE4F3B4DEC8E9CA80F0C /* DDYAmrRecordWriter.h in Headers */,
-				2F39DFDE10E8EAF77C8CEA6139830A33 /* DDYAudioMeterObserver.h in Headers */,
-				DB3A844095EA678657E61706A8AE5202 /* DDYAudioRecorder.h in Headers */,
-				BEB2BD9349F67FB17FD1C51347E6DDBE /* DDYAudioUtils.h in Headers */,
-				51F236BB91AD2E8A04AE151DD5DBF07E /* DDYAudioUtils-umbrella.h in Headers */,
-				09D38720EAF04B3720967DBADC0AD42C /* DDYAudioUtilsHeader.h in Headers */,
-				B6E7277381B71F3E1DF669C232CB5585 /* DDYCafRecordWriter.h in Headers */,
-				82038F4F94D50C5450888146E0B22D5D /* DDYConvertToAmr.h in Headers */,
-				C38AFB478944D81A15FDD8F8BCE3EEA3 /* DDYConvertToMp3.h in Headers */,
-				0BED2CC854A1AAFC5EC6AA5736C98534 /* DDYMp3RecordWriter.h in Headers */,
-				779ABD9FB758339F547FDFDA8E4F8825 /* dec_if.h in Headers */,
-				DE3F328829E79C4F1B714951BFA67C73 /* if_rom.h in Headers */,
-				EFBA4E8E6A3D99CA24013C45712435EB /* interf_dec.h in Headers */,
-				4DF0D87A058E7F4C30998D4D2E35377D /* interf_enc.h in Headers */,
+				6ADB46CFFAF4A64D36B1ACC56E8D1F7D /* Pods-DDYAudioUtilsDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EFC33E2C3A3476010CA9B6D3655E73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B4A5163DD164FADF667608C1B868D6 /* AAFilter.h in Headers */,
+				DB5DEEF7910BBA5F54B2A002129838A3 /* BPMDetect.h in Headers */,
+				76BD49E44EE9A047155082794A919364 /* cpu_detect.h in Headers */,
+				D35A449B692F7EF33DCAB0CEC6E12695 /* DDYSoundChange.h in Headers */,
+				68C5F6BB2D2C23C8B890745038E78D6A /* DDYSoundTouch-umbrella.h in Headers */,
+				7533D4845DBB5817EFC12E3C57FEBED6 /* FIFOSampleBuffer.h in Headers */,
+				C6688CDB588A4F50BF69C0462AC33DCF /* FIFOSamplePipe.h in Headers */,
+				1AE528086AB7665E48A39633C72EDDCF /* FIRFilter.h in Headers */,
+				1721B1D4C3B2467E2114DDE0A9276941 /* PeakFinder.h in Headers */,
+				395DC8897145E438F72BBD124938F4AA /* RateTransposer.h in Headers */,
+				5D38F3DE649BDEDF8F4D479F41971920 /* SoundTouch.h in Headers */,
+				6C383AA854D8EF53416C1FB242CD742E /* soundtouch_config.h in Headers */,
+				4AED9B4E391386BE1A2F2DA594E909ED /* STTypes.h in Headers */,
+				EC78E0342DA2CF03215B3D8A753150D2 /* TDStretch.h in Headers */,
+				9A3D67FAC680B25D177AD9F79C927A24 /* WaveHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,17 +552,18 @@
 /* Begin PBXNativeTarget section */
 		04066D837DE023900D245C00D85DF14A /* Pods-DDYAudioUtilsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBF2820A6A9EB262CD9C88CCDC4CE3F4 /* Build configuration list for PBXNativeTarget "Pods-DDYAudioUtilsDemo" */;
+			buildConfigurationList = 26DC36CBC399F5D62B571BF9B91F8B8A /* Build configuration list for PBXNativeTarget "Pods-DDYAudioUtilsDemo" */;
 			buildPhases = (
-				05889D04BDF51712F9154201E8B2E238 /* Headers */,
-				4F4923ABF2906371277491510745CD45 /* Sources */,
-				2DB77A7AA12C4A51F0247CE81CEBB9C0 /* Frameworks */,
-				E0469D235861983E7778AF9A2A464A0B /* Resources */,
+				734F7E32D98D0983EF6937B55DCC83C0 /* Headers */,
+				E00E43361475F4982E5EFD91E43DFD3D /* Sources */,
+				6D4223BB29356E0A28C43C9E53B45FD3 /* Frameworks */,
+				8792240412BABC3C6B728ED9786CF348 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CED86BD5A81438436373335AF8F34554 /* PBXTargetDependency */,
+				415CD91C5EAC706F1D7D752FEF9EEDC1 /* PBXTargetDependency */,
+				60AF41C191441F863D6A18CAFE886442 /* PBXTargetDependency */,
 			);
 			name = "Pods-DDYAudioUtilsDemo";
 			productName = Pods_DDYAudioUtilsDemo;
@@ -394,20 +572,39 @@
 		};
 		52B301805B4C4A744B0A6130EC54A226 /* DDYAudioUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDE555906E6A632DF9E14B913A02A3FB /* Build configuration list for PBXNativeTarget "DDYAudioUtils" */;
+			buildConfigurationList = 4A144DB48B798A0DC285422875BFFE3E /* Build configuration list for PBXNativeTarget "DDYAudioUtils" */;
 			buildPhases = (
-				0F0F2C1C3237FA3F385C85D1F23C9BD4 /* Headers */,
-				0E64344EF851D7EEBBC23366A2B96466 /* Sources */,
-				C5ADBB0C27C280AEB8F2805F50833226 /* Frameworks */,
-				D94E0DAD8FEC5FE674CAE36D44DFE91F /* Resources */,
+				1DE4A528B2E71489E6152DA995A79458 /* Headers */,
+				AFA9479E128B0244C868DF6CF2889AC8 /* Sources */,
+				DC13D5393E8FA4D6E570D32A0EA7E4BC /* Frameworks */,
+				1DE2A84EE618AB38EA7DFB9B2CA5CED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DEA559F18BE6078019200DBE95C47A /* PBXTargetDependency */,
+			);
+			name = DDYAudioUtils;
+			productName = DDYAudioUtils;
+			productReference = D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */;
+			productType = "com.apple.product-type.framework";
+		};
+		57E60EE3ED73B3C39C0D15DBEE599C74 /* DDYSoundTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6693858F3367A8E71D7EC77ED93A74 /* Build configuration list for PBXNativeTarget "DDYSoundTouch" */;
+			buildPhases = (
+				F4EFC33E2C3A3476010CA9B6D3655E73 /* Headers */,
+				63DD85F4B4E0B4DC8407AB94035E5BCD /* Sources */,
+				05B2E0277304C423BADC8D97EFC335B5 /* Frameworks */,
+				F30315CBF183F03187614108BCA1893E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DDYAudioUtils;
-			productName = DDYAudioUtils;
-			productReference = D6E6A477DE33D286481895401C36FF64 /* DDYAudioUtils */;
+			name = DDYSoundTouch;
+			productName = DDYSoundTouch;
+			productReference = A20D32F9C9D88508BE1321FD353F6D20 /* DDYSoundTouch */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -428,25 +625,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E4EB3618DF3FFC81683605472942F84A /* Products */;
+			productRefGroup = 5181A1EB1FBEA2E4F9C633D76C9F9EE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				52B301805B4C4A744B0A6130EC54A226 /* DDYAudioUtils */,
+				57E60EE3ED73B3C39C0D15DBEE599C74 /* DDYSoundTouch */,
 				04066D837DE023900D245C00D85DF14A /* Pods-DDYAudioUtilsDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D94E0DAD8FEC5FE674CAE36D44DFE91F /* Resources */ = {
+		1DE2A84EE618AB38EA7DFB9B2CA5CED5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0469D235861983E7778AF9A2A464A0B /* Resources */ = {
+		8792240412BABC3C6B728ED9786CF348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30315CBF183F03187614108BCA1893E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,47 +661,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E64344EF851D7EEBBC23366A2B96466 /* Sources */ = {
+		63DD85F4B4E0B4DC8407AB94035E5BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F751597F038BA39D148308D796EBE913 /* amrFileCodec.mm in Sources */,
-				70A8841A7960E88934A6C0C734682486 /* DDYAmrPlayer.m in Sources */,
-				565EC86FF2DA9EBB933BB0B78DBF4B83 /* DDYAmrRecordWriter.m in Sources */,
-				1F6A71C3948E3FF483E479C0C9FD2E0F /* DDYAudioMeterObserver.m in Sources */,
-				166D1B992C5DC427A1056624C08CE3CC /* DDYAudioRecorder.m in Sources */,
-				2A13D61867630D33BB864BCA286A7B07 /* DDYAudioUtils.m in Sources */,
-				788E3F5B3F7125614D02EAE3DA8C6009 /* DDYAudioUtils-dummy.m in Sources */,
-				A09B4F4B9706E513D734AA9660E21F51 /* DDYCafRecordWriter.m in Sources */,
-				164EDB7582A2449FFD4C48A9B710349D /* DDYConvertToAmr.mm in Sources */,
-				712B023DADC219EC2F6B3AC30D586F77 /* DDYConvertToMp3.m in Sources */,
-				C910010F4FD84E1FD3BE17A144B43845 /* DDYMp3RecordWriter.m in Sources */,
+				3C6AE771FE0A40C6351186F2FD0EF3A5 /* AAFilter.cpp in Sources */,
+				8B36851D88C7A222C52852CF412C19DD /* BPMDetect.cpp in Sources */,
+				29DC023DEA95F8EB4CCC04CD3593301F /* cpu_detect_x86.cpp in Sources */,
+				9833BA1BAB5D67ACCD0E32262EA39BE8 /* DDYSoundChange.mm in Sources */,
+				C527F496DB26C1EAFCA5FDA8059C600F /* DDYSoundTouch-dummy.m in Sources */,
+				786F71E313B8A03AB4745A68BCC2CFD0 /* FIFOSampleBuffer.cpp in Sources */,
+				0E26C55730EFCA96F2C7B93BFB64EF1D /* FIRFilter.cpp in Sources */,
+				8449E480D32E16FCD3D52C6DA0CC1076 /* mmx_optimized.cpp in Sources */,
+				9E4B2EFC7CEA378812C6D030F2C5659C /* PeakFinder.cpp in Sources */,
+				1D8B571036B72AAB1D827CE07B8A412C /* RateTransposer.cpp in Sources */,
+				5F4CE907441864CBAB95EE20CEB938C6 /* SoundTouch.cpp in Sources */,
+				23874D9E85AD0EBA98C455A2FDAB392C /* sse_optimized.cpp in Sources */,
+				09EF3A06DB9F6C706DBCAA4EAE277D3C /* TDStretch.cpp in Sources */,
+				CD83CA4FC7C20CBEDF026E27E52F5F43 /* WaveHeader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F4923ABF2906371277491510745CD45 /* Sources */ = {
+		AFA9479E128B0244C868DF6CF2889AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B106F13C154F3FB0C843AFD840DB260E /* Pods-DDYAudioUtilsDemo-dummy.m in Sources */,
+				0EE4CBE3A9A75F29672EA30B4046CE90 /* amrFileCodec.mm in Sources */,
+				48717A95788F542F3530567A96402E73 /* DDYAmrPlayer.m in Sources */,
+				F9D8EA90A42396B0A2A684CAA4284FB1 /* DDYAmrRecordWriter.m in Sources */,
+				90312B83ECE7F8D176BB0C41C335139E /* DDYAudioChange.mm in Sources */,
+				B49A61BE1EEE48F24218B9771AE84D55 /* DDYAudioMeterObserver.m in Sources */,
+				4738CC09D47E0986CA7B01553F4A3158 /* DDYAudioRecorder.m in Sources */,
+				5B89DFE38C08AF55461DE63A3EA55790 /* DDYAudioUtils.m in Sources */,
+				C951A5D38F342BE11865A679D2FB849F /* DDYAudioUtils-dummy.m in Sources */,
+				6615A2A5B329390FE21663943945CEDE /* DDYCafRecordWriter.m in Sources */,
+				FA1A8C23F8EC5D9D7CAC39EFF9E238D5 /* DDYConvertToAmr.mm in Sources */,
+				63622ECFFB79BD0FD2F3DD930EC6F28C /* DDYConvertToMp3.m in Sources */,
+				33B05F3B0A198FB8A2572AD56FAED4CF /* DDYMp3RecordWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00E43361475F4982E5EFD91E43DFD3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AEE058F71FD9F4DED10B736E783BAC /* Pods-DDYAudioUtilsDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CED86BD5A81438436373335AF8F34554 /* PBXTargetDependency */ = {
+		17DEA559F18BE6078019200DBE95C47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDYSoundTouch;
+			target = 57E60EE3ED73B3C39C0D15DBEE599C74 /* DDYSoundTouch */;
+			targetProxy = EB5906F2DA3539C0D53924746E9F454E /* PBXContainerItemProxy */;
+		};
+		415CD91C5EAC706F1D7D752FEF9EEDC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DDYAudioUtils;
 			target = 52B301805B4C4A744B0A6130EC54A226 /* DDYAudioUtils */;
-			targetProxy = 0BEC4A1053444A8E5A3FF18F4099EB17 /* PBXContainerItemProxy */;
+			targetProxy = 02EE4F524C3B1352EE42670F541A430E /* PBXContainerItemProxy */;
+		};
+		60AF41C191441F863D6A18CAFE886442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDYSoundTouch;
+			target = 57E60EE3ED73B3C39C0D15DBEE599C74 /* DDYSoundTouch */;
+			targetProxy = 97ED60F54405D48A8723C6F52EE8FC18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		096D5151DA6F9C5EAA326E29A94CA6FA /* Debug */ = {
+		33A3B7EEF8567C308F12AB155E0F0516 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40AC43E868971DE4DB1B3E87DCA044D5 /* DDYAudioUtils.debug.xcconfig */;
+			baseConfigurationReference = 98E42821D7CD7EC115A61902159CCB01 /* DDYSoundTouch.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -508,8 +747,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/DDYAudioUtils/DDYAudioUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DDYSoundTouch/DDYSoundTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDYSoundTouch/DDYSoundTouch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -517,9 +756,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils.modulemap";
-				PRODUCT_MODULE_NAME = DDYAudioUtils;
-				PRODUCT_NAME = DDYAudioUtils;
+				MODULEMAP_FILE = "Target Support Files/DDYSoundTouch/DDYSoundTouch.modulemap";
+				PRODUCT_MODULE_NAME = DDYSoundTouch;
+				PRODUCT_NAME = DDYSoundTouch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -530,9 +769,9 @@
 			};
 			name = Debug;
 		};
-		783693811421936F14E92C5B99A326F0 /* Debug */ = {
+		5F6EAFCBE8EAC2997A74BF0EA8CB8F02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D899F06CF88385EDA874D081F60D55 /* Pods-DDYAudioUtilsDemo.debug.xcconfig */;
+			baseConfigurationReference = 094236ABB9E7C55120F8B8598356BEAA /* Pods-DDYAudioUtilsDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -563,10 +802,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -630,11 +870,10 @@
 			};
 			name = Release;
 		};
-		CECBA32884AD09CA693F50451DA479ED /* Release */ = {
+		824942E1E7F1A322BB5267515EE7857C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 094236ABB9E7C55120F8B8598356BEAA /* Pods-DDYAudioUtilsDemo.release.xcconfig */;
+			baseConfigurationReference = 6A843960B4A2EFD5DA345EA1CD609FD7 /* DDYAudioUtils.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -645,7 +884,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DDYAudioUtils/DDYAudioUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -653,15 +893,50 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/DDYAudioUtils/DDYAudioUtils.modulemap";
+				PRODUCT_MODULE_NAME = DDYAudioUtils;
+				PRODUCT_NAME = DDYAudioUtils;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F46522E7DA1731E56FD3B8D27E8314C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E465FCF915E6D91AC08F18CD5DA3C68E /* DDYSoundTouch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DDYSoundTouch/DDYSoundTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDYSoundTouch/DDYSoundTouch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDYSoundTouch/DDYSoundTouch.modulemap";
+				PRODUCT_MODULE_NAME = DDYSoundTouch;
+				PRODUCT_NAME = DDYSoundTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -735,9 +1010,9 @@
 			};
 			name = Debug;
 		};
-		D41F9EAAEA2A1F120E6974D67875EB71 /* Release */ = {
+		DC3939CCE4520A6A4E04FCD976E4881E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AEC62115AC9121ECBBA94563990430E /* DDYAudioUtils.release.xcconfig */;
+			baseConfigurationReference = B162D6A47BC64B9F582EDE891F552CEE /* DDYAudioUtils.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -766,15 +1041,70 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		EA7A6BC8992B7A3D374CB08815BC7900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D899F06CF88385EDA874D081F60D55 /* Pods-DDYAudioUtilsDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26DC36CBC399F5D62B571BF9B91F8B8A /* Build configuration list for PBXNativeTarget "Pods-DDYAudioUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7A6BC8992B7A3D374CB08815BC7900 /* Debug */,
+				5F6EAFCBE8EAC2997A74BF0EA8CB8F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A6693858F3367A8E71D7EC77ED93A74 /* Build configuration list for PBXNativeTarget "DDYSoundTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A3B7EEF8567C308F12AB155E0F0516 /* Debug */,
+				8F46522E7DA1731E56FD3B8D27E8314C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -784,20 +1114,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBF2820A6A9EB262CD9C88CCDC4CE3F4 /* Build configuration list for PBXNativeTarget "Pods-DDYAudioUtilsDemo" */ = {
+		4A144DB48B798A0DC285422875BFFE3E /* Build configuration list for PBXNativeTarget "DDYAudioUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				783693811421936F14E92C5B99A326F0 /* Debug */,
-				CECBA32884AD09CA693F50451DA479ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDE555906E6A632DF9E14B913A02A3FB /* Build configuration list for PBXNativeTarget "DDYAudioUtils" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				096D5151DA6F9C5EAA326E29A94CA6FA /* Debug */,
-				D41F9EAAEA2A1F120E6974D67875EB71 /* Release */,
+				DC3939CCE4520A6A4E04FCD976E4881E /* Debug */,
+				824942E1E7F1A322BB5267515EE7857C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

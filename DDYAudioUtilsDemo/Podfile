@@ -12,6 +12,8 @@ target 'DDYAudioUtilsDemo' do
   pod 'DDYAudioUtils/Core', :path => '../DDYAudioUtils/'
   pod 'DDYAudioUtils/Amr', :path => '../DDYAudioUtils/'
   pod 'DDYAudioUtils/Mp3', :path => '../DDYAudioUtils/'
+  pod 'DDYAudioUtils/SoundTouch', :path => '../DDYAudioUtils/'
+  pod 'DDYSoundTouch', :path => '../DDYAudioUtils/'
 end
 
 post_install do |installer_representation|
