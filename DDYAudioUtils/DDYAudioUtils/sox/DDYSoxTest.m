@@ -349,3 +349,8 @@ BOOL padTest(NSURL *srcURL, NSURL *dstURL) {
 // https://www.shuzhiduo.com/A/pRdBOam1zn/
 // https://www.shuzhiduo.com/A/1O5EgvMaz7/
 // https://www.jianshu.com/p/9fb24dc60f29
+// https://github.com/pxhbug123/SoxLibInAndroid/blob/77038094325ebaddc2d0919a88c20127bdd2c70c/soxcommandlibrary/src/main/sox/src/JniNative.c
+// https://github.com/AwaisFayyaz/Soxlib-iOS-Test
+// https://github.com/shieldlock/SoX-iPhone-Lib/blob/master/AudioEffects/AudioEffects/ViewController.m
+// https://github.com/mixflame/MixDJ/blob/c125d7372a434a3353c2269fe27c00e52a2d2f3e/MixDJ/soxEncode.m
+// https://github.com/KelvinJin/libsox-iOS
