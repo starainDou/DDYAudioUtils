@@ -170,7 +170,7 @@ class DDYAudioChangeViewController: UIViewController, AVAudioRecorderDelegate, A
                         
                         let srcURL = URL(fileURLWithPath: ViewController.tempPath)
                         let dstURL = URL(fileURLWithPath: ViewController.magicPath)
-                        DDYSoxTest().testTransform(srcURL, profile: 3, dstURL: dstURL)
+                        DDYSoxTest().testTransform(srcURL, profile: 4, dstURL: dstURL)
                     } else {
                         self.recordButton.isEnabled = true
                         self.playButton.isEnabled = true

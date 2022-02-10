@@ -195,23 +195,28 @@ BOOL padTest(NSURL *srcURL, NSURL *dstURL) {
 
 - (void)testTransform:(NSURL *)srcURL profile:(int)tprofile dstURL:(NSURL *)dstURL {
     static sox_format_t *in, *out; /* input and output files */
+    // 构造效果器链
     sox_effects_chain_t * chain;
+    // 构造输入数据的效果器
     sox_effect_t * e;
-    char *args[10];
+    // 将效果器的效果参数配置到效果器和输入文件中
+    char *args[20];
     
     //    if ([[NSFileManager alloc] fileExistsAtPath:target])
     //        return target;
     
     /* All libSoX applications must start by initialising the SoX library */
+    // 初始化
     assert(sox_init() == SOX_SUCCESS);
-    
     /* Open the input file (with default parameters) */
+    // 读取输入文件
     assert(in = sox_open_read(srcURL.fileSystemRepresentation, NULL, NULL, NULL));
     
     /* Open the output file; we must specify the output signal characteristics.
      * Since we are using only simple effects, they are the same as the input
      * file characteristics */
     // assert(out = sox_open_write([modifiedAudio UTF8String], &in->signal, NULL, NULL, NULL, NULL));
+    // 初始化输出文件
     assert(out = sox_open_write(dstURL.fileSystemRepresentation, &in->signal, NULL, NULL, NULL, NULL));
     /* Create an effects chain; some effects need to know about the input
      * or output file encoding so we provide that information here */
@@ -274,16 +279,6 @@ BOOL padTest(NSURL *srcURL, NSURL *dstURL) {
         assert(sox_effect_options(e, 6, args) == SOX_SUCCESS);
         assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
         
-//        e = sox_create_effect(sox_find_effect("chorus"));
-//        args[0] = "0.7";
-//        args[1] = "0.9";
-//        args[2] = "55";
-//        args[3] = "0.4";
-//        args[4] = "0.25";
-//        args[5] = "2";
-//        args[6] = "-t";
-//        assert(sox_effect_options(e, 7, args) == SOX_SUCCESS);
-//        assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
         
 //        e = sox_create_effect(sox_find_effect("delay"));
 //        args[0] = "0", assert(sox_effect_options(e, 1, args) == SOX_SUCCESS);
@@ -313,6 +308,36 @@ BOOL padTest(NSURL *srcURL, NSURL *dstURL) {
 //        assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
     }
     
+    if (tprofile == 4) {
+        /*
+         合唱和声，典型的延迟 40-60ms，调制速度0.25Hz附近，调制深度2ms左右，-t:三角函数调制 -s:正弦波调制
+         */
+        e = sox_create_effect(sox_find_effect("chorus"));
+        args[0] = "0.5"; // 输入音量
+        args[1] = "0.9";  // 输出音量
+        // 三部和声
+        args[2] = "50"; // 延迟 ms
+        args[3] = "0.4"; // 衰减
+        args[4] = "0.25"; // 调制速度 Hz
+        args[5] = "2"; // 调制深度 ms
+        args[6] = "-t";
+        
+        args[7] = "60"; // 延迟 ms
+        args[8] = "0.32"; // 衰减
+        args[9] = "0.4"; // 调制速度 Hz
+        args[10] = "2.3"; // 调制深度 ms
+        args[11] = "-t";
+        
+        args[12] = "40"; // 延迟 ms
+        args[13] = "0.3"; // 衰减
+        args[14] = "0.3"; // 调制速度 Hz
+        args[15] = "1.3"; // 调制深度 ms
+        args[16] = "-s";
+        
+        assert(sox_effect_options(e, 17, args) == SOX_SUCCESS);
+        assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
+    }
+    
     
     /* Create the `vol' effect, and initialise it with the desired parameters: */
 //    e = sox_create_effect(sox_find_effect("vol"));
@@ -321,10 +346,10 @@ BOOL padTest(NSURL *srcURL, NSURL *dstURL) {
 //    assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
     
     /* Create the `flanger' effect, and initialise it with default parameters: */
-    e = sox_create_effect(sox_find_effect("flanger"));
-    assert(sox_effect_options(e, 0, NULL) == SOX_SUCCESS);
-    /* Add the effect to the end of the effects processing chain: */
-    assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
+//    e = sox_create_effect(sox_find_effect("flanger"));
+//    assert(sox_effect_options(e, 0, NULL) == SOX_SUCCESS);
+//    /* Add the effect to the end of the effects processing chain: */
+//    assert(sox_add_effect(chain, e, &in->signal, &in->signal) == SOX_SUCCESS);
     
     
     /* The last effect in the effect chain must be something that only consumes
