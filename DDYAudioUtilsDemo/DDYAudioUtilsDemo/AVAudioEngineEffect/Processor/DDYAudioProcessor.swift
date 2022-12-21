@@ -72,7 +72,11 @@ extension DDYAudioProcessor {
         audioPlayerNode = AVAudioPlayerNode()
         prepareAudioEngine(forEffect: effect)
         audioPlayerNode.scheduleFile(avAudioFile, at: nil, completionHandler: nil)
-        try? audioEngine.start()
+        do {
+            try audioEngine.start()
+        } catch let error as NSError {
+            print("Error audioEngine.start: \(error.localizedDescription)")
+        }
         audioPlayerNode.play()
     }
     

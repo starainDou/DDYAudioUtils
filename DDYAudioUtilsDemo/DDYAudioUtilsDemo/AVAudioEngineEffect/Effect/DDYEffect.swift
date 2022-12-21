@@ -29,3 +29,9 @@ enum DDYEffectName: String, CaseIterable {
         }
     }
 }
+
+/**
+ AVAudioUnitReverb 混响，混响可以模拟咱们在一个空旷的环境，比如教堂、大房间等，这样咱们在说话的时候，就会有回音，并且声音也比较有立体感
+ AVAudioUnitEQ 均衡器，咱们可以使用均衡器来调节咱们音频的各个频段
+ AVAudioUnitDistortion：失真，失真是可以把声音变得沙哑的效果器
+ */

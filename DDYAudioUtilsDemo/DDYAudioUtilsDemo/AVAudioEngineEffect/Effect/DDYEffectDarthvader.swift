@@ -12,7 +12,6 @@ class DDYEffectDarthvader: DDYEffect {
     private(set) lazy var rate = 1.0
     private(set) lazy var audioUnits: [AVAudioUnit] = {
         let timePitchAU = AVAudioUnitTimePitch()
-        timePitchAU.rate = 1.0
         timePitchAU.pitch = -1200
         return [timePitchAU]
     }()
