@@ -40,11 +40,7 @@ class DDYAudioUnitVC: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDe
     /// 变声播放器
     private var audioProcessor: DDYAudioProcessor?
     
-    private let recordSetting: [String: Any] = [AVFormatIDKey: NSNumber(value: kAudioFormatLinearPCM),
-                                              AVSampleRateKey: NSNumber(value: 8000),
-                                        AVNumberOfChannelsKey: NSNumber(value: 1),
-                                       AVLinearPCMBitDepthKey: NSNumber(value: 16),
-                                     AVEncoderAudioQualityKey: NSNumber(value: AVAudioQuality.low.rawValue)]
+    private let recordSetting: [String: Any] = [AVFormatIDKey : kAudioFormatMPEG4AAC]
     
     private func btn(title: String, y: CGFloat, action: Selector) -> UIButton {
         return UIButton(type: .custom).ddy_then {

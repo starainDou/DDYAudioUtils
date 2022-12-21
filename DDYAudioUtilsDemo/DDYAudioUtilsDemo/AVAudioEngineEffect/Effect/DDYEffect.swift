@@ -15,13 +15,14 @@ protocol DDYEffect {
 
 
 enum DDYEffectName: String, CaseIterable {
-    case slow, fast, alien, darthvader, shaokahn, jigsaw, chipmunk
+    case slow, fast, alien, robot, darthvader, shaokahn, jigsaw, chipmunk
     
     var effect: DDYEffect {
         switch self {
         case .slow: return DDYEffectSlow()
         case .fast: return DDYEffectFast()
         case .alien: return DDYEffectAlien()
+        case .robot: return DDYEffectRobot()
         case .darthvader: return DDYEffectDarthvader()
         case .shaokahn: return DDYEffectShaokahn()
         case .jigsaw: return DDYEffectJigsaw()

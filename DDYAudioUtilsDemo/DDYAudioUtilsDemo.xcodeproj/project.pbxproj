@@ -27,6 +27,7 @@
 		04AE26812952A4F200C90438 /* DDYEffectChipmunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26802952A4F200C90438 /* DDYEffectChipmunk.swift */; };
 		04AE26842952A88A00C90438 /* DDYAudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26832952A88A00C90438 /* DDYAudioProcessor.swift */; };
 		04AE26862952D06400C90438 /* DDYAudioUnitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26852952D06400C90438 /* DDYAudioUnitVC.swift */; };
+		04AE268929533FA500C90438 /* DDYEffectRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE268829533FA500C90438 /* DDYEffectRobot.swift */; };
 		CBE5CD36382B2EC444131837 /* Pods_DDYAudioUtilsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDFEE67880FA757CDC618E1 /* Pods_DDYAudioUtilsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		04AE26802952A4F200C90438 /* DDYEffectChipmunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectChipmunk.swift; sourceTree = "<group>"; };
 		04AE26832952A88A00C90438 /* DDYAudioProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYAudioProcessor.swift; sourceTree = "<group>"; };
 		04AE26852952D06400C90438 /* DDYAudioUnitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDYAudioUnitVC.swift; sourceTree = "<group>"; };
+		04AE268829533FA500C90438 /* DDYEffectRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDYEffectRobot.swift; sourceTree = "<group>"; };
 		293FEA32BA74125CDF7F913A /* Pods-DDYAudioUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYAudioUtilsDemo.release.xcconfig"; path = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4BDFEE67880FA757CDC618E1 /* Pods_DDYAudioUtilsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDYAudioUtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA3707178F5270C6E21223B /* Pods-DDYAudioUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYAudioUtilsDemo.debug.xcconfig"; path = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				04AE26742951F3E800C90438 /* DDYEffectSlow.swift */,
 				04AE26762951F4C700C90438 /* DDYEffectFast.swift */,
 				04AE26782951F51200C90438 /* DDYEffectAlien.swift */,
+				04AE268829533FA500C90438 /* DDYEffectRobot.swift */,
 				04AE267A2952A42800C90438 /* DDYEffectDarthvader.swift */,
 				04AE267C2952A44A00C90438 /* DDYEffectShaokahn.swift */,
 				04AE267E2952A4E100C90438 /* DDYEffectJigsaw.swift */,
@@ -282,6 +285,7 @@
 				04AE26842952A88A00C90438 /* DDYAudioProcessor.swift in Sources */,
 				0312C2E327A2A88E000B5EF2 /* AppDelegate.swift in Sources */,
 				0312C2FF27A3D501000B5EF2 /* DDYCafViewController.swift in Sources */,
+				04AE268929533FA500C90438 /* DDYEffectRobot.swift in Sources */,
 				04AE26862952D06400C90438 /* DDYAudioUnitVC.swift in Sources */,
 				0312C30627A5303A000B5EF2 /* DDYAudioChangeViewController.swift in Sources */,
 				04AE267B2952A42800C90438 /* DDYEffectDarthvader.swift in Sources */,
