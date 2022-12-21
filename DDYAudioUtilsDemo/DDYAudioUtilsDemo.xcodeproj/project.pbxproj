@@ -17,6 +17,16 @@
 		0312C2FF27A3D501000B5EF2 /* DDYCafViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312C2FE27A3D501000B5EF2 /* DDYCafViewController.swift */; };
 		0312C30127A3F714000B5EF2 /* iOS.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0312C30027A3F714000B5EF2 /* iOS.mp4 */; };
 		0312C30627A5303A000B5EF2 /* DDYAudioChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312C30527A5303A000B5EF2 /* DDYAudioChangeViewController.swift */; };
+		04AE26712951F21300C90438 /* DDYEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26702951F21300C90438 /* DDYEffect.swift */; };
+		04AE26732951F24D00C90438 /* DDYEffectFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26722951F24D00C90438 /* DDYEffectFactory.swift */; };
+		04AE26752951F3E800C90438 /* DDYEffectSlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26742951F3E800C90438 /* DDYEffectSlow.swift */; };
+		04AE26772951F4C700C90438 /* DDYEffectFast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26762951F4C700C90438 /* DDYEffectFast.swift */; };
+		04AE26792951F51200C90438 /* DDYEffectAlien.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26782951F51200C90438 /* DDYEffectAlien.swift */; };
+		04AE267B2952A42800C90438 /* DDYEffectDarthvader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE267A2952A42800C90438 /* DDYEffectDarthvader.swift */; };
+		04AE267D2952A44A00C90438 /* DDYEffectShaokahn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE267C2952A44A00C90438 /* DDYEffectShaokahn.swift */; };
+		04AE267F2952A4E100C90438 /* DDYEffectJigsaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE267E2952A4E100C90438 /* DDYEffectJigsaw.swift */; };
+		04AE26812952A4F200C90438 /* DDYEffectChipmunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26802952A4F200C90438 /* DDYEffectChipmunk.swift */; };
+		04AE26842952A88A00C90438 /* DDYAudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE26832952A88A00C90438 /* DDYAudioProcessor.swift */; };
 		CBE5CD36382B2EC444131837 /* Pods_DDYAudioUtilsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDFEE67880FA757CDC618E1 /* Pods_DDYAudioUtilsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +43,16 @@
 		0312C2FE27A3D501000B5EF2 /* DDYCafViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYCafViewController.swift; sourceTree = "<group>"; };
 		0312C30027A3F714000B5EF2 /* iOS.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS.mp4; sourceTree = "<group>"; };
 		0312C30527A5303A000B5EF2 /* DDYAudioChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYAudioChangeViewController.swift; sourceTree = "<group>"; };
+		04AE26702951F21300C90438 /* DDYEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffect.swift; sourceTree = "<group>"; };
+		04AE26722951F24D00C90438 /* DDYEffectFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectFactory.swift; sourceTree = "<group>"; };
+		04AE26742951F3E800C90438 /* DDYEffectSlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectSlow.swift; sourceTree = "<group>"; };
+		04AE26762951F4C700C90438 /* DDYEffectFast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectFast.swift; sourceTree = "<group>"; };
+		04AE26782951F51200C90438 /* DDYEffectAlien.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectAlien.swift; sourceTree = "<group>"; };
+		04AE267A2952A42800C90438 /* DDYEffectDarthvader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectDarthvader.swift; sourceTree = "<group>"; };
+		04AE267C2952A44A00C90438 /* DDYEffectShaokahn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectShaokahn.swift; sourceTree = "<group>"; };
+		04AE267E2952A4E100C90438 /* DDYEffectJigsaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectJigsaw.swift; sourceTree = "<group>"; };
+		04AE26802952A4F200C90438 /* DDYEffectChipmunk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYEffectChipmunk.swift; sourceTree = "<group>"; };
+		04AE26832952A88A00C90438 /* DDYAudioProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDYAudioProcessor.swift; sourceTree = "<group>"; };
 		293FEA32BA74125CDF7F913A /* Pods-DDYAudioUtilsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYAudioUtilsDemo.release.xcconfig"; path = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4BDFEE67880FA757CDC618E1 /* Pods_DDYAudioUtilsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDYAudioUtilsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA3707178F5270C6E21223B /* Pods-DDYAudioUtilsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDYAudioUtilsDemo.debug.xcconfig"; path = "Target Support Files/Pods-DDYAudioUtilsDemo/Pods-DDYAudioUtilsDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +91,7 @@
 		0312C2E127A2A88E000B5EF2 /* DDYAudioUtilsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04AE266E2951F19B00C90438 /* AVAudioEngineEffect */,
 				0312C2E227A2A88E000B5EF2 /* AppDelegate.swift */,
 				0312C2E627A2A88E000B5EF2 /* ViewController.swift */,
 				0312C2FA27A3D4DF000B5EF2 /* DDYMp3ViewController.swift */,
@@ -84,6 +105,39 @@
 				0312C2F027A2A890000B5EF2 /* Info.plist */,
 			);
 			path = DDYAudioUtilsDemo;
+			sourceTree = "<group>";
+		};
+		04AE266E2951F19B00C90438 /* AVAudioEngineEffect */ = {
+			isa = PBXGroup;
+			children = (
+				04AE26822952A87100C90438 /* Processor */,
+				04AE266F2951F1F100C90438 /* Effect */,
+			);
+			path = AVAudioEngineEffect;
+			sourceTree = "<group>";
+		};
+		04AE266F2951F1F100C90438 /* Effect */ = {
+			isa = PBXGroup;
+			children = (
+				04AE26702951F21300C90438 /* DDYEffect.swift */,
+				04AE26742951F3E800C90438 /* DDYEffectSlow.swift */,
+				04AE26762951F4C700C90438 /* DDYEffectFast.swift */,
+				04AE26782951F51200C90438 /* DDYEffectAlien.swift */,
+				04AE267A2952A42800C90438 /* DDYEffectDarthvader.swift */,
+				04AE267C2952A44A00C90438 /* DDYEffectShaokahn.swift */,
+				04AE267E2952A4E100C90438 /* DDYEffectJigsaw.swift */,
+				04AE26802952A4F200C90438 /* DDYEffectChipmunk.swift */,
+				04AE26722951F24D00C90438 /* DDYEffectFactory.swift */,
+			);
+			path = Effect;
+			sourceTree = "<group>";
+		};
+		04AE26822952A87100C90438 /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				04AE26832952A88A00C90438 /* DDYAudioProcessor.swift */,
+			);
+			path = Processor;
 			sourceTree = "<group>";
 		};
 		19108110CC5AD03F98B976ED /* Frameworks */ = {
@@ -220,12 +274,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AE26772951F4C700C90438 /* DDYEffectFast.swift in Sources */,
+				04AE267F2952A4E100C90438 /* DDYEffectJigsaw.swift in Sources */,
 				0312C2E727A2A88E000B5EF2 /* ViewController.swift in Sources */,
 				0312C2FD27A3D4F0000B5EF2 /* DDYAmrViewController.swift in Sources */,
 				0312C2FB27A3D4DF000B5EF2 /* DDYMp3ViewController.swift in Sources */,
+				04AE26842952A88A00C90438 /* DDYAudioProcessor.swift in Sources */,
 				0312C2E327A2A88E000B5EF2 /* AppDelegate.swift in Sources */,
 				0312C2FF27A3D501000B5EF2 /* DDYCafViewController.swift in Sources */,
 				0312C30627A5303A000B5EF2 /* DDYAudioChangeViewController.swift in Sources */,
+				04AE267B2952A42800C90438 /* DDYEffectDarthvader.swift in Sources */,
+				04AE267D2952A44A00C90438 /* DDYEffectShaokahn.swift in Sources */,
+				04AE26752951F3E800C90438 /* DDYEffectSlow.swift in Sources */,
+				04AE26712951F21300C90438 /* DDYEffect.swift in Sources */,
+				04AE26792951F51200C90438 /* DDYEffectAlien.swift in Sources */,
+				04AE26732951F24D00C90438 /* DDYEffectFactory.swift in Sources */,
+				04AE26812952A4F200C90438 /* DDYEffectChipmunk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,12 +439,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AS43JR7V78;
+				DEVELOPMENT_TEAM = 2A2HBA58GY;
 				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DDYAudioUtilsDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否同意使用相机？";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否同意使用麦克风？";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -388,14 +455,15 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cc.orangelab.werewolf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbgy.inormal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = normal_developer;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -412,12 +480,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AS43JR7V78;
+				DEVELOPMENT_TEAM = 2A2HBA58GY;
 				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DDYAudioUtilsDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否同意使用相机？";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否同意使用麦克风？";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -425,14 +496,15 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cc.orangelab.werewolf;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbgy.inormal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = normal_developer;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
