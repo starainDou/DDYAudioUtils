@@ -8,7 +8,7 @@
 import AVFoundation
 
 class DDYEffectSlow: DDYEffect {
-    private(set) lazy var name = DDYEffectFactory.EffectName.slow
+    private(set) lazy var name = DDYEffectName.slow
     private(set) lazy var rate = 0.5
     private(set) lazy var audioUnits: [AVAudioUnit] = {
         let timePitchAU = AVAudioUnitTimePitch()

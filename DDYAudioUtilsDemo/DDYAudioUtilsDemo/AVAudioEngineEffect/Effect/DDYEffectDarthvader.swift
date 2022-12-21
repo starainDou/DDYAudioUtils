@@ -8,7 +8,7 @@
 import AVFoundation
 
 class DDYEffectDarthvader: DDYEffect {
-    private(set) lazy var name = DDYEffectFactory.EffectName.darthvader
+    private(set) lazy var name = DDYEffectName.darthvader
     private(set) lazy var rate = 1.0
     private(set) lazy var audioUnits: [AVAudioUnit] = {
         let timePitchAU = AVAudioUnitTimePitch()

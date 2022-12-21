@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     private lazy var changeButton: UIButton = btn(title: "变声", y: 250, action: #selector(changeAction(_:)))
     
-    private lazy var imgView: UIImageView = UIImageView(frame: CGRect(x: 100, y: 350, width: UIScreen.main.bounds.width - 200, height: 200))
+    private lazy var audioUnitButton: UIButton = btn(title: "AVAudioUnit", y: 300, action: #selector(audioUnitAction(_:)))
     
     private func btn(title: String, y: CGFloat, action: Selector) -> UIButton {
         return UIButton(type: .custom).ddy_then {
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         view.addSubview(amrButton)
         view.addSubview(cafButton)
         view.addSubview(changeButton)
-        view.addSubview(imgView)
+        view.addSubview(audioUnitButton)
     }
     @objc private func mp3Action(_ sender: UIButton) {
         navigationController?.pushViewController(DDYMp3ViewController(), animated: true)
@@ -54,6 +54,10 @@ class ViewController: UIViewController {
     @objc private func changeAction(_ sender: UIButton) {
         navigationController?.pushViewController(DDYAudioChangeViewController(), animated: true)
     }
+    
+    @objc private func audioUnitAction(_ sender: UIButton) {
+        navigationController?.pushViewController(DDYAudioUnitVC(), animated: true)
+    }
 }
 
 extension ViewController {
@@ -64,6 +68,7 @@ extension ViewController {
     static let wavPath: String = ViewController.voicePath + "record.wav"
     static let tempPath: String = ViewController.voicePath + "temp.wav"
     static let magicPath: String = ViewController.voicePath + "magic.wav"
+    static let m4aPath: String = ViewController.voicePath + "record.m4a"
     
     /// 尝试创建
     static func tryCreate(path: String) {

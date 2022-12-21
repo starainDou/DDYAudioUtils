@@ -64,7 +64,7 @@ class DDYAudioChangeViewController: UIViewController, AVAudioRecorderDelegate, A
             btn.removeFromSuperview()
         }
         for (index, pitch) in pitchs.enumerated() {
-            view.addSubview(UIButton(type: .custom).ddy_then {
+            let button = UIButton(type: .custom).ddy_then {
                 let width = (UIScreen.main.bounds.width - 90) / 6
                 $0.frame = CGRect(x: 20 + (width + 10) * CGFloat(index), y: 300, width: width, height: 30)
                 $0.setTitle("变声\(index)", for: .normal)
@@ -73,7 +73,9 @@ class DDYAudioChangeViewController: UIViewController, AVAudioRecorderDelegate, A
                 $0.titleLabel?.font = UIFont.systemFont(ofSize: 12)
                 $0.addTarget(self, action: #selector(changeAction(_:)), for: .touchUpInside)
                 $0.tag = pitch + 13
-            })
+            }
+            pitchButtons.append(button)
+            view.addSubview(button)
         }
     }
     
