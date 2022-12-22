@@ -148,3 +148,18 @@ private class InnerCell: UICollectionViewCell {
         textLabel.text = title
     }
 }
+// [iOS设备上回声消除的例子](https://blog.csdn.net/lixing333/article/details/46325733)
+/**
+ if (@available(iOS 13.0, *)) {
+     UIView *grayView = [[UIView alloc] initWithFrame:UIScreen.mainScreen.bounds];
+     grayView.userInteractionEnabled = NO;
+     grayView.backgroundColor = [UIColor lightGrayColor];
+     grayView.layer.compositingFilter = @"saturationBlendMode";
+     grayView.layer.zPosition = CGFLOAT_MAX;
+     [self.window addSubview:grayView];
+ } else {
+     CIFilter *filter = [NSClassFromString(@"CAFilter") filterWithName:@"colorSaturate"];
+     [filter setValue:@0 forKey:@"inputAmount"];
+     self.window.layer.filters = @[filter];
+ }
+ */
