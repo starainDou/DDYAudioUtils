@@ -13,15 +13,22 @@ class DDYEffectRobot: DDYEffect {
     private(set) lazy var audioUnits: [AVAudioUnit] = {
         let timePitchAU = AVAudioUnitTimePitch()
         timePitchAU.pitch = 100
-        
+
         let reverbAU = AVAudioUnitReverb()
         reverbAU.loadFactoryPreset(.mediumChamber)
         reverbAU.wetDryMix = 5
-        
+
         let distortionAU = AVAudioUnitDistortion()
         distortionAU.loadFactoryPreset(.speechGoldenPi)
         distortionAU.wetDryMix = 60
-        return [timePitchAU, reverbAU, distortionAU]
+        
+        let delayAU = AVAudioUnitDelay()
+        delayAU.delayTime = 0.015 // seconds
+        delayAU.lowPassCutoff = 17593 //Hz
+        delayAU.feedback = 0.75 // Normalized Value 0 - 1
+        delayAU.wetDryMix = 47 // Normalized Value 0 - 100
+        
+        return [timePitchAU, reverbAU, distortionAU, delayAU]
     }()
 }
 
